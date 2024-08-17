@@ -72,8 +72,9 @@ problems (e.g. Internet and MPLS).
 - For more details about my certifications, please click on the following [link](https://drive.google.com/drive/folders/18Nwnijli1AXx3NvtLJIbVPS0eTKf9tFP?usp=sharing). 
 
 ## Publications
-- A. Aslam et al (2023). Leveraging Natural Language Processing For Public Health Screening On YouTube: A COVID-19 Case Study. [arXiv preprint arXiv:2306.01164](https://arxiv.org/abs/2306.01164).
-- Aslam, A. B., Iqbal, F., Talpur, U., Syed, Z. S., & Shaikh, F. K. (2024). Artificial intelligence-enabled 6G mobile systems. In A. Bourdena, C. Mavromoustakis, E. K. Markakis, G. Mastorakis, & E. Pallis (Eds.), Intelligent technologies for healthcare business applications (pp. 49-79). Springer. [DOI](https://doi.org/10.1007/978-3-031-58527-2_3)
+- Aslam, A. B., Syed, Z. S., Khan, M. F., Baloch, A., & Syed, M. S. S. (2023). Leveraging natural language processing for public health screening on YouTube: A COVID-19 case study. [arXiv preprint 
+arXiv:2306.01164](https://arxiv.org/abs/2306.01164).
+- Aslam, A. B., Iqbal, F., Talpur, U., Syed, Z. S., & Shaikh, F. K. (2024). Artificial intelligence-enabled 6G mobile systems. In A. Bourdena, C. Mavromoustakis, E. K. Markakis, G. Mastorakis, & E. Pallis (Eds.), Intelligent technologies for healthcare business applications (pp. 49-79). Springer. [(https://doi.org/10.1007/978-3-031-58527-2_3)](https://doi.org/10.1007/978-3-031-58527-2_3)
 
 ## References
 - [Zafi Sherhan Syed](https://scholar.google.com/citations?hl=en&user=OLku1akAAAAJ&view_op=list_works&sortby=pubdate), Associate Professor, Mehran University of Engineering and Technology.
