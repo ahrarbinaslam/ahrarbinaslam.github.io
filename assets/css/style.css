@@ -17,7 +17,7 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
-    max-width: 1200px; /* Added max-width for better responsiveness */
+    max-width: 1200px;
 }
 
 /* Header Styles */
@@ -50,8 +50,8 @@ body {
 }
 
 .site-header .logo img {
-    width: 40px; /* Increased size for better visibility */
-    height: 40px;
+    width: 50px; /* Adjusted for better visibility */
+    height: 50px;
     border-radius: 50%;
     margin-bottom: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -65,51 +65,31 @@ body {
 
 .site-header .logo h1 {
     margin: 0;
-    font-size: 16px; /* Increased font size */
+    font-size: 24px; /* Adjusted for better visibility */
 }
 
 /* Navbar Styles */
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+.navbar {
+    margin-bottom: 20px; /* Added margin to separate from content */
 }
 
-.navbar ul li {
-    margin: 0 15px; /* Adjusted margin for better spacing */
+.navbar-nav {
+    flex-direction: row;
 }
 
-.navbar ul li a {
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
     color: #fff;
-    text-decoration: none;
     font-weight: bold;
-    padding: 12px 25px; /* Adjusted padding */
-    display: block;
+    padding: 12px 25px;
     border-radius: 5px;
-    position: relative;
-    overflow: hidden;
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-.navbar ul li a::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 200%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.3);
-    transition: transform 0.3s ease;
-    transform: translateX(-50%) translateY(100%);
-}
-
-.navbar ul li a:hover::after {
-    transform: translateX(-50%) translateY(0);
-}
-
-.navbar ul li a:hover {
+.navbar-nav .nav-link:hover {
     color: #e6f2ff;
     background: rgba(255, 255, 255, 0.2);
 }
@@ -154,14 +134,13 @@ a:active {
     justify-content: space-between;
     margin: 20px auto;
     padding: 20px;
-    max-width: 1200px;
 }
 
 /* Project Cards */
 .project-card {
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 10px; /* Slightly rounded corners */
+    border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     margin: 15px;
     padding: 20px;
@@ -227,22 +206,6 @@ a:active {
     overflow: hidden;
 }
 
-.publications-container li::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.1);
-    transition: opacity 0.3s ease;
-    opacity: 0;
-}
-
-.publications-container li:hover::before {
-    opacity: 1;
-}
-
 .publications-container li:hover {
     background-color: #e6f2ff;
     color: #003366;
@@ -290,22 +253,6 @@ a:active {
     overflow: hidden;
 }
 
-.certificates-container li::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.1);
-    transition: opacity 0.3s ease;
-    opacity: 0;
-}
-
-.certificates-container li:hover::before {
-    opacity: 1;
-}
-
 .certificates-container li:hover {
     background-color: #e6f2ff;
     color: #003366;
@@ -326,38 +273,12 @@ a:active {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-    .navbar ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar ul li {
-        margin: 10px 0;
-    }
-
-    .main-content {
-        padding: 20px;
-    }
-
     .project-card {
         width: calc(50% - 30px);
     }
 }
 
 @media (max-width: 768px) {
-    .navbar ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar ul li {
-        margin: 10px 0;
-    }
-
-    .main-content {
-        padding: 15px;
-    }
-
     .project-card {
         width: calc(100% - 30px);
     }
@@ -365,19 +286,11 @@ a:active {
 
 @media (max-width: 480px) {
     .site-header .logo h1 {
-        font-size: 12px; /* Slightly increased font size */
-    }
-
-    .navbar ul li {
-        margin: 5px 0;
+        font-size: 12px;
     }
 
     .project-card {
         width: calc(100% - 20px);
-    }
-
-    .main-content {
-        padding: 10px;
     }
 }
 
