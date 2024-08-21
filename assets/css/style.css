@@ -292,6 +292,18 @@ a:active {
     .project-card {
         width: calc(100% - 20px);
     }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px;
+    }
 }
 
 /* Animations */
