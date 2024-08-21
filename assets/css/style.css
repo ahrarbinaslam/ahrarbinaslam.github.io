@@ -24,7 +24,7 @@ body {
 /* Header Styles */
 .site-header {
     background: linear-gradient(135deg, #5bacfc 0%, #004b8d 100%);
-    padding: 10px 20px; /* Adjust padding as needed */
+    padding: 10px 15px; /* Adjusted padding */
     border-bottom: 2px solid #5bacfc;
     position: fixed;
     width: 100%;
@@ -43,15 +43,18 @@ body {
 
 /* Navbar Styles */
 .navbar {
+    display: flex;
+    justify-content: center; /* Center the navbar items */
     margin-bottom: 20px; /* Added margin to separate from content */
 }
 
 .navbar-nav {
     flex-direction: row;
+    justify-content: center; /* Center the nav items */
 }
 
 .navbar-nav .nav-item {
-    margin: 0 1rem; /* Increased margin for spacing */
+    margin: 0 0.5rem; /* Adjusted margin for spacing */
 }
 
 .navbar-nav .nav-link {
@@ -67,6 +70,17 @@ body {
     background: rgba(255, 255, 255, 0.2);
 }
 
+/* Responsive Navbar Adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically on smaller screens */
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0.5rem 0; /* Adjusted margin for smaller screens */
+    }
+}
+
 /* Main Content Styles */
 .main-content {
     margin: 0 auto;
@@ -76,13 +90,15 @@ body {
     border-radius: 12px;
     animation: slideUp 0.6s ease-out;
 }
+
 #profile-header {
     display: none; /* Hide by default */
 }
+
 /* Profile Image Styling */
 .logo-img {
-    max-width: 200px; /* Set a maximum width */
-    max-height: 200px; /* Set a maximum height */
+    max-width: 250px; /* Increased maximum width */
+    max-height: 250px; /* Increased maximum height */
     width: auto; /* Maintain aspect ratio */
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Optional: makes the image circular */
@@ -93,15 +109,15 @@ body {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .logo-img {
-        max-width: 120px; /* Adjust for smaller screens */
-        max-height: 120px; /* Adjust for smaller screens */
+        max-width: 200px; /* Adjust for smaller screens */
+        max-height: 200px; /* Adjust for smaller screens */
     }
 }
 
 @media (max-width: 425px) {
     .logo-img {
-        max-width: 100px; /* Further adjust for very small screens */
-        max-height: 100px; /* Further adjust for very small screens */
+        max-width: 150px; /* Further adjust for very small screens */
+        max-height: 150px; /* Further adjust for very small screens */
     }
 }
 
