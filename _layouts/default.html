@@ -45,10 +45,9 @@
 
   <main class="main-content container">
     <!-- Profile Image and Title -->
-    <div class="profile-header text-center my-5">
+    <div id="profile-header" class="profile-header text-center my-5">
       <img src="/assets/img/profile-pic (1).png" alt="Ahrar Bin Aslam" class="logo-img">
     </div>
-
 
     <!-- Dynamic content will be injected here -->
     {{ content }}
@@ -62,5 +61,16 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.11/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Conditional display script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var profileHeader = document.getElementById('profile-header');
+      var currentPath = window.location.pathname;
+      if (currentPath !== '/') {
+        profileHeader.style.display = 'none';
+      }
+    });
+  </script>
 </body>
 </html>
