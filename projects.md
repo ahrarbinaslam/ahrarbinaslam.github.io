@@ -28,12 +28,14 @@ COVID-19 pandemic.</p>
   
   <div class="project-card">
     <h2>Sentiment Classification of Russia vs Ukraine Tweets</h2>
-    <p>Performed sentiment analysis and classification on tweets related to the Russia-Ukraine conflict.</p>
+    <p>In this project, I utilized Natural Language Processing (NLP) techniques to analyze tweets about the Russia-Ukraine conflict. I performed sentiment analysis to classify emotions as positive, negative, or neutral. Using Term Frequency - Inverse Document Frequency (TF-IDF), I identified significant keywords, and applied Latent Dirichlet Allocation (LDA) for topic modeling to uncover underlying themes in the tweets. This analysis provided insights into public sentiment and the main topics discussed in relation to the conflict.
+
+</p>
   </div>
   
   <div class="project-card">
     <h2>Implementing Homomorphic Encryption on Datasets</h2>
-    <p>Explored homomorphic encryption techniques to secure sensitive datasets during processing.</p>
+    <p>In this project, I explored the use of homomorphic encryption to securely perform computations on encrypted data without decryption. I utilized PYFHEL and Concrete-Numpy libraries to encrypt small datasets and execute numpy operations on the encrypted data. The study focused on evaluating the feasibility and performance of applying machine learning algorithms on homomorphically encrypted data compared to unencrypted datasets. Despite the added complexity and increased processing requirements, PYFHEL facilitated the implementation of fully homomorphic encryption, demonstrating its potential for secure data processing.</p>
   </div>
 
 </div>
