@@ -222,35 +222,68 @@ body {
 /* Certificates Section */
 .certificates-section {
     margin: 2rem auto;
-    padding: 1.25rem;
+    padding: 1.5rem;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.certificates-section h2 {
-    font-size: 1.375rem;
-    margin-bottom: 1rem;
+.certificates-section h1 {
+    font-size: 2rem; /* Font size for h1 */
+    margin-bottom: 1.5rem;
+    color: #004b8d; /* Heading color */
+    text-align: center; /* Center the heading */
 }
 
-.certificates-section ul {
+.certificates-list {
     list-style: none;
     padding: 0;
+    margin: 0;
+    counter-reset: certificate-counter; /* Reset counter */
 }
 
-.certificates-section ul li {
-    font-size: 1rem;
+.certificate-item {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s ease;
+    position: relative; /* To position the number */
+}
+
+.certificate-item:last-child {
+    border-bottom: none;
+}
+
+.certificate-item:hover {
+    background-color: #f7f7f7;
+}
+
+.certificate-item::before {
+    content: counter(certificate-counter) ". "; /* Add number before each item */
+    counter-increment: certificate-counter; /* Increment counter */
+    font-size: 1.25rem; /* Font size for numbering */
+    color: #004b8d; /* Number color */
+    font-weight: bold; /* Number weight */
+    position: absolute;
+    left: -2.5rem; /* Adjust position as needed */
+}
+
+.certificate-title {
+    font-size: 1.25rem;
+    color: #333;
+    text-decoration: none;
+    display: block;
     margin-bottom: 0.5rem;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.certificates-section ul li:hover {
-    color: #004b8d;
     font-weight: bold;
-    cursor: pointer;
-    transform: translateX(10px);
 }
 
+.certificate-title:hover {
+    color: #0056b3;
+}
+
+.certificate-description {
+    font-size: 1rem;
+    color: #555;
+}
 /* Footer Styles */
 .site-footer {
     background: linear-gradient(135deg, #5bacfc 0%, #004b8d 100%);
