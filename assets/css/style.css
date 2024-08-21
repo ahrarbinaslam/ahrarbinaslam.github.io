@@ -1,6 +1,6 @@
 /* General Body Styling */
 body {
-    font-family: 'Times New Roman', serif !important;
+    font-family: 'Roboto', sans-serif; /* Changed to Roboto */
     color: #333;
     background-color: #f9f9f9;
     margin: 0;
