@@ -77,6 +77,32 @@ body {
     animation: slideUp 0.6s ease-out;
 }
 
+/* Profile Image Styling */
+.logo-img {
+    max-width: 50px; /* Set a maximum width */
+    max-height: 50px; /* Set a maximum height */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the image circular */
+    object-fit: cover; /* Ensure the image covers the area */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logo-img {
+        max-width: 120px; /* Adjust for smaller screens */
+        max-height: 120px; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 425px) {
+    .logo-img {
+        max-width: 100px; /* Further adjust for very small screens */
+        max-height: 100px; /* Further adjust for very small screens */
+    }
+}
+
 /* Project Cards */
 .project-card {
     background: #fff;
@@ -201,9 +227,12 @@ body {
     color: #0059b3;
     text-decoration: underline;
 }
-.site-header .navbar-brand img {
-    max-width: 150px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
+
+/* Footer Styles */
+.site-footer {
+    background: #003366;
+    color: #fff;
+    padding: 1rem 0;
 }
 
 /* Responsive Design */
