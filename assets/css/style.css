@@ -201,6 +201,22 @@ body {
     color: #0059b3;
     text-decoration: underline;
 }
+.profile-pic-container {
+    margin-bottom: 2rem; /* Add some space below the profile picture */
+}
+
+.profile-pic {
+    width: 150px; /* Set the width of the profile picture */
+    height: 150px; /* Set the height of the profile picture */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05); /* Slightly increase the size on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase the shadow on hover */
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
