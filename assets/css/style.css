@@ -121,3 +121,36 @@ body {
     transform: scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+.publications-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.publications-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.publications-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publications-container li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.publications-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.publications-container a:hover {
+    text-decoration: underline;
+}
