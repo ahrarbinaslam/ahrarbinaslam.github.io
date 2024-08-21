@@ -15,9 +15,9 @@ title: CV
 }
 
 .cv-section h2 {
-    font-size: 1.875rem;
+    font-size: 1.875rem; /* Font size for h2 */
     margin-bottom: 1rem;
-    color: #004b8d;
+    color: #004b8d; /* Heading color */
 }
 
 .cv-section p {
@@ -70,27 +70,6 @@ title: CV
 
 .cv-button:hover::after {
     transform: translate(-50%, -50%) scale(1);
-}
-
-.cv-button i {
-    margin-right: 0.5rem;
-    font-size: 1.25rem;
-}
-
-.cv-button-english {
-    background-color: #0056b3;
-}
-
-.cv-button-english:hover {
-    background-color: #007bff;
-}
-
-.cv-button-german {
-    background-color: #d9534f;
-}
-
-.cv-button-german:hover {
-    background-color: #c9302c;
 }
 </style>
 
