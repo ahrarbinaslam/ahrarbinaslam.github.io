@@ -1,6 +1,6 @@
 /* General Body Styling */
 body {
-    font-family: 'Times New Roman', serif; /* Retained Times New Roman */
+    font-family: 'Times New Roman', serif;
     color: #333;
     background-color: #f9f9f9;
     margin: 0;
@@ -23,7 +23,7 @@ body {
 /* Header Styles */
 .site-header {
     background: linear-gradient(135deg, #5bacfc 0%, #004b8d 100%);
-    padding: 10px 20px; /* Adjust padding as needed */
+    padding: 10px 20px;
     border-bottom: 2px solid #5bacfc;
     position: fixed;
     width: 100%;
@@ -40,42 +40,15 @@ body {
     background: linear-gradient(135deg, #004b8d 0%, #5bacfc 100%);
 }
 
-/* Logo Section */
-.site-header .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: #fff;
-}
-
-.site-header .logo img {
-    width: 40px; /* Set logo width */
-    height: 40px; /* Set logo height */
-    border-radius: 50%;
-    margin-bottom: 5px; /* Adjust margin for spacing */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    object-fit: cover; /* Ensure the image fits within the specified dimensions */
-}
-
-.site-header .logo img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-}
-
-.site-header .logo h1 {
-    margin: 0;
-    font-size: 18px; /* Adjust font size to match logo size */
-}
-
 /* Navbar Styles */
 .navbar {
-    margin-bottom: 20px; /* Added margin to separate from content */
+    margin-bottom: 20px;
 }
 
 .navbar-nav {
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .navbar-nav .nav-item {
@@ -95,24 +68,10 @@ body {
     background: rgba(255, 255, 255, 0.2);
 }
 
-/* Link Styles */
-a:link, a:visited, a:hover, a:active {
-    color: #0070E0;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    color: #0059b3;
-}
-
 /* Main Content Styles */
 .main-content {
     margin: 100px auto 20px;
-    padding: 40px; /* Increased padding */
+    padding: 40px;
     background: #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
@@ -126,15 +85,6 @@ a:active {
     background: linear-gradient(135deg, #5bacfc 0%, #004b8d 100%);
     color: #fff;
     border-top: 2px solid #5bacfc;
-}
-
-/* Projects Container */
-.projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px auto;
-    padding: 20px;
 }
 
 /* Project Cards */
@@ -250,21 +200,11 @@ a:active {
     margin-bottom: 15px;
     font-size: 16px;
     color: #333;
-    position: relative;
-    overflow: hidden;
-}
-
-.certificates-container li:hover {
-    background-color: #e6f2ff;
-    color: #003366;
-    transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .certificates-container a {
     color: #0070E0;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .certificates-container a:hover {
@@ -273,41 +213,32 @@ a:active {
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-    .project-card {
-        width: calc(50% - 30px);
-    }
-}
-
 @media (max-width: 768px) {
-    .project-card {
-        width: calc(100% - 30px);
-    }
-}
-
-@media (max-width: 480px) {
-    .site-header .logo h1 {
-        font-size: 12px;
-    }
-
-    .project-card {
-        width: calc(100% - 20px);
-    }
-
     .navbar-nav {
         flex-direction: column;
+        align-items: center;
     }
 
     .navbar-nav .nav-item {
         margin: 5px 0;
     }
 
-    .navbar-nav .nav-link {
-        padding: 10px;
+    .project-card {
+        width: calc(100% - 30px);
     }
 }
 
-/* Animations */
+@media (max-width: 480px) {
+    .project-card {
+        width: calc(100% - 20px);
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+}
+
+/* Keyframe Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -319,7 +250,7 @@ a:active {
 
 @keyframes slideUp {
     from {
-        transform: translateY(20px);
+        transform: translateY(10px);
         opacity: 0;
     }
     to {
