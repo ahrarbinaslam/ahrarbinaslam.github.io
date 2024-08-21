@@ -20,10 +20,10 @@ I am a master's student of Cybersecurity at **[Universität des Saarlandes](http
 
 ## Education
 ### Master of Science (M.Sc.) in Cybersecurity
-- **[Universität des Saarlandes](https://www.uni-saarland.de/en/home.html)** | **Saarland, Germany (Oct 2024 - Present)**
+**[Universität des Saarlandes](https://www.uni-saarland.de/en/home.html)** | **Saarland, Germany (Oct 2024 - Present)**
 
 ### Bachelor of Engineering (B.E) in Telecommunication
-- **[Mehran University of Engineering and Technology](https://www.muet.edu.pk/)** | **Jamshoro, Pakistan - (Oct 2018 - Dec 2022)**
+**[Mehran University of Engineering and Technology](https://www.muet.edu.pk/)** | **Jamshoro, Pakistan - (Oct 2018 - Dec 2022)**
 - **CGPA:** 3.95/4.00
 - **Dissertation:** Leveraging Natural Language Processing for Public Health Screening of COVID-19
 - **Honors:** Undergraduate First Position Holder
