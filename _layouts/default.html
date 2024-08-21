@@ -7,22 +7,22 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header>
-    <nav>
+  <header class="site-header">
+    <nav class="navbar">
       <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
-        <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
-        <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/publications">Publications</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main class="main-content">
     {{ content }}
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>&copy; 2024 Ahrar Bin Aslam</p>
   </footer>
 </body>
