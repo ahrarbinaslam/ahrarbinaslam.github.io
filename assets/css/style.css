@@ -201,6 +201,10 @@ body {
     color: #0059b3;
     text-decoration: underline;
 }
+.site-header .navbar-brand img {
+    max-width: 150px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
