@@ -21,9 +21,9 @@ body {
 
 /* Header Styles */
 .site-header {
-    background: linear-gradient(135deg, #003366 0%, #002244 100%);
+    background: linear-gradient(135deg, #5bacfc 0%, #004b8d 100%); /* Updated color */
     padding: 20px 0;
-    border-bottom: 2px solid #61adff;
+    border-bottom: 2px solid #5bacfc; /* Updated color */
     position: fixed;
     width: 100%;
     top: 0;
@@ -36,7 +36,7 @@ body {
 }
 
 .site-header:hover {
-    background: linear-gradient(135deg, #61adff 0%, #0f73d6 100%);
+    background: linear-gradient(135deg, #004b8d 0%, #5bacfc 100%); /* Updated color */
 }
 
 /* Logo Section */
@@ -118,7 +118,7 @@ a:link, /* Unvisited link */
 a:visited, /* Visited link */
 a:hover, /* Hovered link */
 a:active { /* Clicked link */
-    color: #003366; /* Your desired color */
+    color: #5bacfc; /* Your desired color */
     text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ a:hover {
 }
 
 a:active {
-    color: #002244; /* Optional: Slightly different color when clicked */
+    color: #004b8d; /* Optional: Slightly different color when clicked */
 }
 
 /* Main Content Styles */
@@ -145,9 +145,9 @@ a:active {
 .site-footer {
     text-align: center;
     padding: 20px;
-    background-color: #003366;
+    background-color: #5bacfc; /* Updated color */
     color: #fff;
-    border-top: 2px solid #002244;
+    border-top: 2px solid #004b8d; /* Updated color */
 }
 
 /* Projects Container */
