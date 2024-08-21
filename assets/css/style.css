@@ -23,7 +23,7 @@ body {
 .site-header {
     background: linear-gradient(135deg, #003366 0%, #002244 100%);
     padding: 20px 0;
-    border-bottom: 2px solid #002244;
+    border-bottom: 2px solid #61adff;
     position: fixed;
     width: 100%;
     top: 0;
@@ -36,7 +36,7 @@ body {
 }
 
 .site-header:hover {
-    background: linear-gradient(135deg, #002244 0%, #003366 100%);
+    background: linear-gradient(135deg, #61adff 0%, #0f73d6 100%);
 }
 
 /* Logo Section */
