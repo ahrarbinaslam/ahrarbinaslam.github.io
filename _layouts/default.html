@@ -3,19 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ahrar Bin Aslam's personal portfolio site showcasing experience, projects, publications, and certifications.">
   <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="preload" href="{{ '/assets/css/style.css' | relative_url }}" as="style">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/x-icon">
 </head>
 <body>
   <header class="site-header">
     <nav class="navbar">
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/experience">Experience</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/publications">Publications</a></li>
-        <li><a href="/certifications">Certifications</a></li>
-        <li><a href="/cv">CV</a></li> <!-- Corrected the closing tag -->
+        <li><a href="/" aria-label="Homepage">Home</a></li>
+        <li><a href="/experience" aria-label="Experience">Experience</a></li>
+        <li><a href="/projects" aria-label="Projects">Projects</a></li>
+        <li><a href="/publications" aria-label="Publications">Publications</a></li>
+        <li><a href="/certifications" aria-label="Certifications">Certifications</a></li>
+        <li><a href="/cv" aria-label="CV">CV</a></li>
       </ul>
     </nav>
   </header>
