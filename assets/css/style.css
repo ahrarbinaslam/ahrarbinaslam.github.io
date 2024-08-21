@@ -50,9 +50,9 @@ body {
 }
 
 .site-header .logo img {
-    width: 50px; /* Adjusted for better visibility */
-    height: 50px;
-    border-radius: 50%;
+    width: 10px; /* Adjusted for better visibility */
+    height: 10px;
+    border-radius: 20%;
     margin-bottom: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
@@ -65,7 +65,7 @@ body {
 
 .site-header .logo h1 {
     margin: 0;
-    font-size: 24px; /* Adjusted for better visibility */
+    font-size: 14px; /* Adjusted for better visibility */
 }
 
 /* Navbar Styles */
