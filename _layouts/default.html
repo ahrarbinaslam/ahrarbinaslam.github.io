@@ -67,8 +67,13 @@
     document.addEventListener("DOMContentLoaded", function() {
       var profileHeader = document.getElementById('profile-header');
       var currentPath = window.location.pathname;
-      if (currentPath !== '/') {
-        profileHeader.style.display = 'none';
+      
+      // Hide profile header by default
+      profileHeader.style.display = 'none';
+      
+      // Show profile header only on home page
+      if (currentPath === '/' || currentPath === '/index.html') {
+        profileHeader.style.display = 'block';
       }
     });
   </script>
