@@ -79,8 +79,8 @@ body {
 
 /* Profile Image Styling */
 .logo-img {
-    max-width: 50px; /* Set a maximum width */
-    max-height: 50px; /* Set a maximum height */
+    max-width: 150px; /* Set a maximum width */
+    max-height: 150px; /* Set a maximum height */
     width: auto; /* Maintain aspect ratio */
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Optional: makes the image circular */
