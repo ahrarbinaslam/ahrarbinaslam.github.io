@@ -4,14 +4,6 @@ title: Home
 ---
 
 <style>
-/* Profile Image */
-.profile-img {
-    max-width: 150px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    margin-bottom: 1rem;
-}
-
 /* Header Styling */
 .header-title {
     font-size: 2.5rem;
@@ -52,9 +44,6 @@ title: Home
     }
 }
 </style>
-
-<!-- Profile Image -->
-<img src="{{ site.logo }}" alt="Ahrar Bin Aslam" class="profile-img">
 
 <!-- Header Title -->
 <h1 class="header-title">Ahrar Bin Aslam</h1>
