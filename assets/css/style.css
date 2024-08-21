@@ -49,7 +49,7 @@ body {
 }
 
 .site-header .logo img {
-    width: 30px; /* Increased size */
+    width: 30px; /* Adjusted size */
     height: 30px;
     border-radius: 50%;
     margin-bottom: 10px; /* Space between image and text */
@@ -145,9 +145,9 @@ a:active {
 .site-footer {
     text-align: center;
     padding: 20px;
-    background-color: #5bacfc; /* Updated color */
+    background: linear-gradient(135deg, #5bacfc 0%, #004b8d 100%); /* Same as header */
     color: #fff;
-    border-top: 2px solid #004b8d; /* Updated color */
+    border-top: 2px solid #5bacfc; /* Same as header */
 }
 
 /* Projects Container */
@@ -329,6 +329,25 @@ a:active {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .project-card {
+        width: calc(50% - 30px);
+    }
+}
+
 @media (max-width: 768px) {
     .navbar ul {
         flex-direction: column;
@@ -344,7 +363,26 @@ a:active {
     }
 
     .project-card {
+        width: calc(100% - 30px);
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    .site-header .logo h1 {
+        font-size: 10px;
+    }
+
+    .navbar ul li {
+        margin: 5px 0;
+    }
+
+    .project-card {
         width: calc(100% - 20px);
+    }
+
+    .main-content {
+        padding: 10px;
     }
 }
 
