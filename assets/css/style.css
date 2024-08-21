@@ -49,8 +49,8 @@ body {
 }
 
 .site-header .logo img {
-    width: 50px; /* Increased size */
-    height: 50px;
+    width: 30px; /* Increased size */
+    height: 30px;
     border-radius: 50%;
     margin-bottom: 10px; /* Space between image and text */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -64,7 +64,7 @@ body {
 
 .site-header .logo h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 12px;
 }
 
 /* Navbar Styles */
