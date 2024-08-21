@@ -72,6 +72,11 @@ title: CV
     transform: translate(-50%, -50%) scale(1);
 }
 
+.cv-button i {
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+}
+
 .cv-button-english {
     background-color: #0056b3;
 }
@@ -94,10 +99,10 @@ title: CV
     <h2>CV</h2>
     <p>You can download my CV from the links below:</p>
     <div class="cv-buttons">
-        <a href="/path/to/Ahrar_CV_Saarland_English.pdf" class="cv-button cv-button-english" download>
+        <a href="https://ahrarbinaslam.github.io/Ahrar_CV_Saarland__English.pdf" class="cv-button cv-button-english" download>
             Download English CV
         </a>
-        <a href="/path/to/Ahrar_CV_Saarland_German.pdf" class="cv-button cv-button-german" download>
+        <a href="https://ahrarbinaslam.github.io/Ahrar_CV_Saarland_German.pdf" class="cv-button cv-button-german" download>
             Download Deutsch CV
         </a>
     </div>
