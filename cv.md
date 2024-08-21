@@ -1,6 +1,6 @@
 # CV
 
-You can download my CV from the link below:
+You can download my CV from the links below:
 
 [Download English CV](Ahrar_CV_Saarland__English.pdf)
 
