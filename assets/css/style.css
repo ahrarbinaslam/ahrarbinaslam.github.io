@@ -45,12 +45,18 @@ body {
 .navbar {
     display: flex;
     justify-content: center; /* Center the navbar items */
-    margin-bottom: 20px; /* Added margin to separate from content */
+    width: 100%; /* Ensure navbar spans the full width */
+    box-sizing: border-box; /* Include padding and border in the element’s total width and height */
+    padding: 0; /* Reset any default padding */
+    margin: 0; /* Reset any default margin */
 }
 
 .navbar-nav {
+    display: flex;
     flex-direction: row;
     justify-content: center; /* Center the nav items */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
 }
 
 .navbar-nav .nav-item {
@@ -74,10 +80,19 @@ body {
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column; /* Stack navbar items vertically on smaller screens */
+        align-items: center; /* Center align the navbar items vertically */
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column; /* Stack nav items vertically */
+        width: 100%; /* Ensure it spans the full width */
+        padding: 0; /* Reset padding */
     }
 
     .navbar-nav .nav-item {
-        margin: 0.5rem 0; /* Adjusted margin for smaller screens */
+        margin: 0.5rem 0; /* Adjust margin for vertical stacking */
+        text-align: center; /* Center align text for mobile */
     }
 }
 
