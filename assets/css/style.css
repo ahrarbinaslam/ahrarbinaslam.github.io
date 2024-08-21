@@ -308,7 +308,62 @@ body {
     text-decoration: underline;
 }
 
-/* Responsive Design */
+/* CV Section Styles */
+.cv-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.cv-section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.cv-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #003366;
+    text-align: center;
+}
+
+.cv-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* CV Download Button */
+.cv-section .download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #003366;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.cv-section .download-btn:hover {
+    background-color: #002244;
+    transform: scale(1.05);
+}
+
+.cv-section .download-btn:active {
+    background-color: #001533;
+}
+
+/* Responsive Design for CV Section */
 @media (max-width: 768px) {
     .navbar ul {
         flex-direction: column;
@@ -325,5 +380,17 @@ body {
 
     .project-card {
         width: calc(100% - 20px);
+    }
+
+    .cv-section {
+        padding: 15px;
+    }
+
+    .cv-section h2 {
+        font-size: 24px;
+    }
+
+    .cv-section p {
+        font-size: 16px;
     }
 }
