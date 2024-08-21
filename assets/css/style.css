@@ -118,7 +118,7 @@ a:link, /* Unvisited link */
 a:visited, /* Visited link */
 a:hover, /* Hovered link */
 a:active { /* Clicked link */
-    color: #5bacfc; /* Your desired color */
+    color: #0070E0; /* Updated color */
     text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ a:hover {
 }
 
 a:active {
-    color: #004b8d; /* Optional: Slightly different color when clicked */
+    color: #0059b3; /* Optional: Slightly different color when clicked */
 }
 
 /* Main Content Styles */
@@ -255,13 +255,13 @@ a:active {
 }
 
 .publications-container a {
-    color: #003366;
+    color: #0070E0; /* Updated color */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .publications-container a:hover {
-    color: #002244;
+    color: #0059b3; /* Slightly darker color on hover */
     text-decoration: underline;
 }
 
@@ -318,13 +318,13 @@ a:active {
 }
 
 .certificates-container a {
-    color: #003366;
+    color: #0070E0; /* Updated color */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .certificates-container a:hover {
-    color: #002244;
+    color: #0059b3; /* Slightly darker color on hover */
     text-decoration: underline;
 }
 
