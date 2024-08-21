@@ -69,8 +69,8 @@ body {
 
 /* Main Content Styles */
 .main-content {
-    margin: 100px auto 20px;
-    padding: 2rem; /* Increased padding */
+    margin: 0 auto;
+    padding: 100px 1rem 2rem; /* Adjusted top padding */
     background: #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
@@ -187,7 +187,7 @@ body {
 
 /* Footer Styles */
 .site-footer {
-    background-color: #004b8d;
+    background: linear-gradient(135deg, #5bacfc 0%, #004b8d 100%);
     color: #fff;
     padding: 1rem;
     position: fixed;
