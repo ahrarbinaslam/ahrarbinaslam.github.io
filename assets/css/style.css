@@ -144,7 +144,10 @@ body {
         max-height: 150px;
     }
 }
-
+h1.center-heading {
+    text-align: center;
+    margin-bottom: 2rem; /* Optional: Adjust spacing below the heading */
+}
 .projects-container {
     display: flex;
     flex-wrap: wrap;
