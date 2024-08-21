@@ -247,7 +247,7 @@ body {
     border-bottom: 1px solid #e0e0e0;
     transition: background-color 0.3s ease;
     position: relative; /* To position the number */
-    padding-left: 3rem; /* Add padding to avoid overlap with number */
+    padding-left: 3rem; /* Ensure space for the number */
 }
 
 .certificate-item:last-child {
@@ -265,9 +265,11 @@ body {
     color: #004b8d; /* Number color */
     font-weight: bold; /* Number weight */
     position: absolute;
-    left: 0; /* Align number to the left */
-    top: 50%; /* Center vertically */
-    transform: translateY(-50%); /* Adjust for vertical centering */
+    left: 0; /* Align number to the left edge */
+    top: 0; /* Align to the top edge */
+    height: 100%; /* Ensure it spans the full height of the item */
+    display: flex;
+    align-items: center; /* Center vertically */
 }
 
 .certificate-title {
