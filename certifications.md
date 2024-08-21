@@ -9,10 +9,10 @@
 }
 
 .certificates-section h1 {
-    font-size: 2rem;
+    font-size: 2rem; /* Font size for h1 */
     margin-bottom: 1.5rem;
-    color: #004b8d;
-    text-align: center;
+    color: #004b8d; /* Heading color */
+    text-align: center; /* Center the heading */
 }
 
 .certificates-list {
