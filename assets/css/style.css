@@ -144,9 +144,11 @@ body {
         max-height: 150px;
     }
 }
-h1.center-heading {
+.h1.center-heading {
     text-align: center;
     margin-bottom: 2rem; /* Optional: Adjust spacing below the heading */
+    font-size: 2rem; /* Match font size with other headings */
+    color: #004b8d; /* Match heading color */
 }
 .projects-container {
     display: flex;
