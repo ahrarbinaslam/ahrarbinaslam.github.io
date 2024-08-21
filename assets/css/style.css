@@ -30,7 +30,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 1000; /* Ensures header is on top */
     color: #fff;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -111,6 +111,8 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     animation: slideInFromRight 1s ease-out forwards;
+    position: relative; /* Ensure relative positioning for z-index to work */
+    z-index: 500; /* Layer below the header */
 }
 
 @keyframes slideInFromRight {
@@ -120,8 +122,8 @@ body {
 
 /* Profile Image Styling */
 .logo-img {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
     width: auto;
     height: auto;
     border-radius: 50%; /* Makes the image circular */
@@ -179,6 +181,7 @@ body {
     font-size: 1rem;
     color: #333;
 }
+
 /* Publications Container */
 .publications-container {
     max-width: 800px;
