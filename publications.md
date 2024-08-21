@@ -4,15 +4,34 @@ title: Publications
 ---
 
 <style>
-/* Center Publications Heading */
 .publications-heading {
     text-align: center;
     margin-bottom: 2rem;
 }
 
 .publications-heading h1 {
-    font-size: 2.5rem;
-    color: #004b8d;
+    font-size: 2rem; /* Font size for h1 */
+    color: #004b8d; /* Heading color */
+}
+
+/* Publications List */
+.publications-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.publication-item {
+    margin-bottom: 1.5rem;
+}
+
+.publication-item a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.publication-item a:hover {
+    text-decoration: underline;
 }
 </style>
 
