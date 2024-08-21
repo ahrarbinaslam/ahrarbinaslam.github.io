@@ -3,7 +3,6 @@ layout: default
 title: Projects
 ---
 
-# Projects
 <h1 class="center-heading">Projects</h1>
 
 <div class="projects-container">
