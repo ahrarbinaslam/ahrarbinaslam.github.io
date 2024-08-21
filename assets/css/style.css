@@ -70,12 +70,11 @@ body {
 /* Main Content Styles */
 .main-content {
     margin: 0 auto;
-    padding: 2rem 1rem; /* Ensure there is enough padding */
+    padding: 100px 1rem 2rem; /* Adjusted top padding to account for the fixed header height */
     background: #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    min-height: 100vh; /* Ensure it takes at least full viewport height */
-    box-sizing: border-box;
+    animation: slideUp 0.6s ease-out;
 }
 #profile-header {
     display: none; /* Hide by default */
