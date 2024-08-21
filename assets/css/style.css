@@ -1,10 +1,15 @@
 /* General Body Styling */
 body {
-    font-family: 'Roboto', sans-serif; /* Changed to Roboto */
+    font-family: 'Times New Roman', serif; /* Changed to Times New Roman */
     color: #333;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
+}
+
+/* General Transitions */
+*, *::before, *::after {
+    transition: all 0.3s ease;
 }
 
 /* Container */
@@ -15,33 +20,44 @@ body {
 
 /* Header Styles */
 .site-header {
-    background-color: #003366; /* Deep blue */
+    background: linear-gradient(135deg, #003366 0%, #002244 100%);
     padding: 20px 0;
-    border-bottom: 2px solid #002244; /* Darker blue border */
+    border-bottom: 2px solid #002244;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000;
     color: #fff;
-    text-align: center; /* Center align header text */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.site-header:hover {
+    background: linear-gradient(135deg, #002244 0%, #003366 100%);
 }
 
 /* Logo Section */
 .site-header .logo {
     display: inline-flex;
-    flex-direction: column; /* Stack logo and text */
-    align-items: center; /* Center align logo and text */
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
     color: #fff;
 }
 
 /* Profile Picture */
 .site-header .logo img {
-    width: 60px; /* Adjust size */
+    width: 60px;
     height: 60px;
-    border-radius: 50%; /* Make image circular */
-    margin-bottom: 10px; /* Space between image and text */
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.site-header .logo img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .site-header .logo h1 {
@@ -68,19 +84,35 @@ body {
     font-weight: bold;
     padding: 10px 15px;
     display: block;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar ul li a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 200%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+    transform: translateX(-50%) translateY(100%);
+}
+
+.navbar ul li a:hover::after {
+    transform: translateX(-50%) translateY(0);
 }
 
 .navbar ul li a:hover {
-    background-color: #002244; /* Darker blue */
-    border-radius: 5px;
-    color: #fff;
+    color: #e6f2ff;
 }
 
 /* Main Content Styles */
 .main-content {
     max-width: 1200px;
-    margin: 100px auto 20px; /* Adjust for fixed header */
+    margin: 100px auto 20px;
     padding: 20px;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -91,9 +123,9 @@ body {
 .site-footer {
     text-align: center;
     padding: 20px;
-    background-color: #003366; /* Matches header */
+    background-color: #003366;
     color: #fff;
-    border-top: 2px solid #002244; /* Darker blue border */
+    border-top: 2px solid #002244;
 }
 
 /* Projects Container */
@@ -113,27 +145,28 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px;
-    width: calc(50% - 40px); /* Adjust width for responsiveness */
+    width: calc(50% - 40px);
     box-sizing: border-box;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+    perspective: 1000px;
+}
+
+.project-card:hover {
+    transform: rotateY(5deg) rotateX(5deg) scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    background-color: #e6f2ff;
 }
 
 .project-card h2 {
     font-size: 18px;
     margin-top: 0;
-    color: #003366; /* Heading color for projects */
+    color: #003366;
 }
 
 .project-card p {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
-}
-
-.project-card:hover {
-    transform: scale(1.02);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    background-color: #e6f2ff; /* Light blue background on hover */
 }
 
 /* Publications Container */
@@ -155,7 +188,7 @@ body {
 .publications-container h2 {
     font-size: 24px;
     margin-bottom: 15px;
-    color: #003366; /* Heading color for publications */
+    color: #003366;
 }
 
 /* List Items in Publications Container */
@@ -173,11 +206,31 @@ body {
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.publications-container li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.publications-container li:hover::before {
+    opacity: 1;
 }
 
 .publications-container li:hover {
-    background-color: #e6f2ff; /* Light blue background on hover */
-    color: #003366; /* Change text color on hover */
+    background-color: #e6f2ff;
+    color: #003366;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .publications-container a {
@@ -187,9 +240,10 @@ body {
 }
 
 .publications-container a:hover {
-    color: #002244; /* Darker blue on hover */
+    color: #002244;
     text-decoration: underline;
 }
+
 /* Certificates Container */
 .certificates-container {
     max-width: 800px;
@@ -203,7 +257,7 @@ body {
 .certificates-container h2 {
     font-size: 24px;
     margin-bottom: 15px;
-    color: #003366; /* Heading color for certificates */
+    color: #003366;
 }
 
 .certificates-container ul {
@@ -216,6 +270,31 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
+    position: relative;
+    overflow: hidden;
+}
+
+.certificates-container li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.certificates-container li:hover::before {
+    opacity: 1;
+}
+
+.certificates-container li:hover {
+    background-color: #e6f2ff;
+    color: #003366;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .certificates-container a {
@@ -225,7 +304,7 @@ body {
 }
 
 .certificates-container a:hover {
-    color: #002244; /* Darker blue on hover */
+    color: #002244;
     text-decoration: underline;
 }
 
@@ -245,6 +324,6 @@ body {
     }
 
     .project-card {
-        width: calc(100% - 20px); /* Full width on smaller screens */
+        width: calc(100% - 20px);
     }
 }
