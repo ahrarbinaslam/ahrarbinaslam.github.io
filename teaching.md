@@ -2,9 +2,21 @@
 layout: default
 title: Teaching
 ---
+<style>
+.teaching-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
+.teaching-heading h2 {
+    font-size: 2rem; /* Font size for h2 */
+    color: #004b8d; /* Heading color */
+}
+</style>
 <section id="teaching" class="container">
-  <h2>Teaching</h2>
+  <div class="teaching-heading">
+    <h2>Teaching</h2>
+  </div>
   <p>These are the lectures that I created while teaching the course of Artificial Intelligence (Machine Learning & Deep Learning).</p>
   
   <div class="row">
