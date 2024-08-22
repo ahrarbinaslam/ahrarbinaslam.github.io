@@ -38,4 +38,9 @@ COVID-19 pandemic.</p>
     <p>In this project, I explored the use of homomorphic encryption to securely perform computations on encrypted data without decryption. I utilized PYFHEL and Concrete-Numpy libraries to encrypt small datasets and execute numpy operations on the encrypted data. The study focused on evaluating the feasibility and performance of applying machine learning algorithms on homomorphically encrypted data compared to unencrypted datasets. Despite the added complexity and increased processing requirements, PYFHEL facilitated the implementation of fully homomorphic encryption, demonstrating its potential for secure data processing.</p>
   </div>
 
+ <div class="project-card">
+    <h2>CGPA and Probation Calculator</h2>
+    <p>I created two helpful calculators for students at Mehran University of Engineering and Technology (MUET). The <a href="https://exam.muet.edu.pk/calc/gpa_calculator.html" target="_blank">GPA Calculator</a> allows students to easily calculate their Semester Grade Point Average (GPA) by inputting their grades and credit hours, providing an instant view of their academic performance. The <a href="https://exam.muet.edu.pk/calc/probation_calculator.html" target="_blank">Probation Calculator</a> helps students assess their Cumulative Grade Point Average (CGPA) to determine if they meet the criteria to avoid academic probation, allowing them to monitor their academic standing and make informed decisions about their studies.</p>
+  </div>
+
 </div>
