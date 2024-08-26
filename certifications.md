@@ -32,16 +32,16 @@
             <p class="certificate-description">Completed the Data Analysis with Python certification from IBM, where I honed my skills in data analysis using the pandas library to efficiently manipulate, process, and analyze datasets.</p>
         </li>
  <li class="certificate-item">
-    <a href="https://ahrarbinaslam.github.io/Data Science Methodology.pdf" class="certificate-title" download> Data Science Methodology Certification</a>
+    <a href="https://ahrarbinaslam.github.io/Data Science Methodology.pdf" class="certificate-title" download> Data Science Methodology</a>
     <p class="certificate-description">
         Completed the Data Science Methodology certification, gaining a comprehensive understanding of the structured approach to solving data science problems. </p>
 </li>
  <li class="certificate-item">    
-     <a href="https://ahrarbinaslam.github.io/Data Visualization with Python.pdf" class="certificate-title" download> Data Visualization with Python Certification </a>
+     <a href="https://ahrarbinaslam.github.io/Data Visualization with Python.pdf" class="certificate-title" download> Data Visualization with Python</a>
     <p class="certificate-description">Earned the Data Visualization with Python certification, mastering the techniques of creating insightful and effective visualizations using libraries such as Matplotlib and Seaborn.</p>
 </li>
  <li class="certificate-item">    
-     <a href="https://ahrarbinaslam.github.io/Tools for Data Science.pdf" class="certificate-title" download> Tools for Data Science Certification</a>
+     <a href="https://ahrarbinaslam.github.io/Tools for Data Science.pdf" class="certificate-title" download> Tools for Data Science</a>
     <p class="certificate-description">Completed the Tools for Data Science certification, where I gained knowledge about essential data science tools, including Jupyter Notebooks, Google Colab, Git to streamline data science workflows.</p>
 </li>
     </ul>
