@@ -23,6 +23,14 @@
             <a href="https://ahrarbinaslam.github.io/AI%20for%20Everyone.pdf" class="certificate-title" download>AI for Everyone</a>
             <p class="certificate-description">Completed the AI for Everyone certification provided by DeepLearning.AI, gaining knowledge of fundamental concepts of artificial intelligence and its use cases.</p>
         </li>
+                <li class="certificate-item">
+            <a href="https://ahrarbinaslam.github.io/Python for Data Science, AI & Development.pdf" class="certificate-title" download>Python for Data Science, AI & Development</a>
+            <p class="certificate-description">Completed the Python for Data Science, AI & Development certification provided by IBM, gaining knowledge of the usage of Python in data science and artificial intelligence. </p>
+        </li>
+                        <li class="certificate-item">
+            <a href="https://ahrarbinaslam.github.io/Data Analysis with Python.pdf" class="certificate-title" download>Data Analysis with Python.pdf</a>
+            <p class="certificate-description">Completed the Data Analysis with Python certification from IBM, where I honed my skills in data analysis using the pandas library to efficiently manipulate, process, and analyze datasets.</p>
+        </li>
     </ul>
 </section>
 
