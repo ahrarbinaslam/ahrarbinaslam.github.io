@@ -71,7 +71,7 @@ body {
 
 <!-- Introduction -->
 <div class="container content-section">
-    <p class="lead">I am a master's student of Cybersecurity at <strong><a href="https://www.uni-saarland.de/en/home.html" target="_blank">Universität des Saarlandes</a></strong>. I completed my Bachelor's in Telecommunications Engineering from <strong><a href="https://www.muet.edu.pk/" target="_blank">Mehran University of Engineering and Technology</a></strong> by securing the first position in my batch. I have a deep interest in cybersecurity, artificial intelligence, and machine learning.</p>
+    <p class="lead">I am Ahrar Bin Aslam, a master's student of Cybersecurity at <strong><a href="https://www.uni-saarland.de/en/home.html" target="_blank">Universität des Saarlandes</a></strong>. I hold a Bachelor’s degree in Telecommunications Engineering from <strong><a href="https://www.muet.edu.pk/" target="_blank">Mehran University of Engineering and Technology</a></strong> where I secured first position in my batch. My academic journey has developed a keen interest in cybersecurity, artificial intelligence, and machine learning, fields in which I am committed to advancing my knowledge and expertise. Apart from my academic and professional endeavors, I enjoy coding, watching football, and playing computer games. Feel free to explore my projects, publications, and teaching materials to get a deeper insight into my work. I am always open to new opportunities and connections, so don't hesitate to reach out. </p>
 </div>
 
 <!-- Address -->
