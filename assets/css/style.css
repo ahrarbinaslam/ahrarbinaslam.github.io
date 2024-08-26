@@ -381,20 +381,4 @@ body {
         padding: 0.75rem; /* Adjust padding */
     }
 }
-.logos-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* Space between logos */
-}
 
-.tech-logo {
-    max-width: 100px; /* Adjust size as needed */
-    max-height: 100px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.tech-logo:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
