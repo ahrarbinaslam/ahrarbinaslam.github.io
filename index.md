@@ -76,6 +76,11 @@ title: Home
         font-size: 1.1rem; /* Slightly larger lead paragraph */
         line-height: 1.6; /* Increased line height for readability */
     }
+
+    /* Increased font size for address and education */
+    .address, .education {
+        font-size: 1.1rem; /* Increase font size */
+    }
 </style>
 
 <!-- Header Title -->
@@ -88,16 +93,10 @@ title: Home
     <p class="lead">I am Ahrar Bin Aslam, a master's student of Cybersecurity at <strong><a href="https://www.uni-saarland.de/en/home.html" target="_blank">Universität des Saarlandes</a></strong>. I hold a Bachelor’s degree in Telecommunications Engineering from <strong><a href="https://www.muet.edu.pk/" target="_blank">Mehran University of Engineering and Technology</a></strong>, where I secured first position in my batch. My academic journey has developed a keen interest in cybersecurity, artificial intelligence, and machine learning, fields in which I am committed to advancing my knowledge and expertise. Apart from my academic and professional endeavors, I enjoy coding, watching football, and playing computer games. Feel free to explore my projects, publications, and teaching materials to get a deeper insight into my work. I am always open to new opportunities and connections, so don't hesitate to reach out.</p>
 </div>
 
-<!-- Address -->
-<div class="container content-section">
-    <h2 class="section-title">Address</h2>
-    <p>Duetschherenstraße 82, 66117, Saarbrücken, Deutschland</p>
-</div>
-
 <!-- Contact Information -->
 <div class="container content-section">
     <h2 class="section-title">Contact</h2>
-    <div class="contact-links">
+    <div class="contact-links address">
         <p><strong>Address:</strong> Duetschherenstraße 82, 66117, Saarbrücken, Deutschland</p>
         <p><strong>Email:</strong> <a href="mailto:ahas00001@stud.uni-saarland.de">ahas00001@stud.uni-saarland.de</a></p>
         <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ahrarbinaslam23" target="_blank">linkedin.com/in/ahrarbinaslam23</a></p>
@@ -109,16 +108,15 @@ title: Home
 <!-- Education -->
 <div class="container content-section">
     <h2 class="section-title">Education</h2>
-    <p><strong>Master of Science (M.Sc.) in Cybersecurity</strong><br>
+    <p class="education"><strong>Master of Science (M.Sc.) in Cybersecurity</strong><br>
     <a href="https://www.uni-saarland.de/en/home.html" target="_blank">Universität des Saarlandes</a> | Saarland, Germany (Oct 2024 - Present)</p>
-    <p><strong>Bachelor of Engineering (B.E) in Telecommunication</strong><br>
+    <p class="education"><strong>Bachelor of Engineering (B.E) in Telecommunication</strong><br>
     <a href="https://www.muet.edu.pk/" target="_blank">Mehran University of Engineering and Technology</a> | Jamshoro, Pakistan (Oct 2018 - Dec 2022)<br>
     <strong>CGPA:</strong> 3.95/4.00<br>
     <strong>Dissertation:</strong> Leveraging Natural Language Processing for Public Health Screening of COVID-19<br>
     <strong>Honors:</strong> Undergraduate First Position Holder<br>
     <strong>Specializations:</strong> Computer Programming, Computer Networking, Machine Learning</p>
 </div>
-
 
 <!-- Bootstrap JS and dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
