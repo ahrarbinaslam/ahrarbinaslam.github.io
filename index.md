@@ -8,60 +8,74 @@ title: Home
 
 <!-- Custom CSS -->
 <style>
-/* Apply Times New Roman font */
-body {
-    font-family: 'Times New Roman', serif;
-}
-
-/* Header Styling */
-.header-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #002244;
-    margin-bottom: 1rem;
-}
-
-/* Section Titles */
-.section-title {
-    font-size: 1.75rem;
-    color: #002244;
-    border-bottom: 2px solid #002244;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-}
-
-/* Content Styling */
-.content-section {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    border-radius: 8px;
-    background-color: #f8f9fa;
-    transition: background-color 0.3s;
-}
-
-.content-section:hover {
-    background-color: #e9ecef;
-}
-
-/* Contact Links */
-.contact-links a {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s, text-decoration 0.3s;
-}
-
-.contact-links a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-}
-
-/* Responsive Layout */
-@media (max-width: 768px) {
-    .content-section {
-        padding: 1rem;
+    /* Apply Times New Roman font */
+    body {
+        font-family: 'Times New Roman', serif;
+        background-color: #f4f4f4; /* Light background for contrast */
     }
-}
+
+    /* Header Styling */
+    .header-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #002244;
+        margin-bottom: 1rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+    }
+
+    /* Section Titles */
+    .section-title {
+        font-size: 1.75rem;
+        color: #002244;
+        border-bottom: 3px solid #007bff; /* Blue underline for section titles */
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+    }
+
+    /* Content Styling */
+    .content-section {
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+        border-radius: 10px; /* More rounded corners */
+        background-color: #ffffff; /* White background for sections */
+        transition: background-color 0.3s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+
+    .content-section:hover {
+        background-color: #f8f9fa; /* Slightly darker on hover */
+    }
+
+    /* Contact Links */
+    .contact-links a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s, text-decoration 0.3s;
+        font-weight: bold; /* Bold for emphasis */
+    }
+
+    .contact-links a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+    /* Responsive Layout */
+    @media (max-width: 768px) {
+        .content-section {
+            padding: 1rem;
+        }
+    }
+
+    /* Additional Styling */
+    h2 {
+        margin-top: 1.5rem; /* Space above section headers */
+    }
+
+    p.lead {
+        font-size: 1.1rem; /* Slightly larger lead paragraph */
+        line-height: 1.6; /* Increased line height for readability */
+    }
 </style>
 
 <!-- Header Title -->
@@ -71,13 +85,13 @@ body {
 
 <!-- Introduction -->
 <div class="container content-section">
-    <p class="lead">I am Ahrar Bin Aslam, a master's student of Cybersecurity at <strong><a href="https://www.uni-saarland.de/en/home.html" target="_blank">Universität des Saarlandes</a></strong>. I hold a Bachelor’s degree in Telecommunications Engineering from <strong><a href="https://www.muet.edu.pk/" target="_blank">Mehran University of Engineering and Technology</a></strong> where I secured first position in my batch. My academic journey has developed a keen interest in cybersecurity, artificial intelligence, and machine learning, fields in which I am committed to advancing my knowledge and expertise. Apart from my academic and professional endeavors, I enjoy coding, watching football, and playing computer games. Feel free to explore my projects, publications, and teaching materials to get a deeper insight into my work. I am always open to new opportunities and connections, so don't hesitate to reach out. </p>
+    <p class="lead">I am Ahrar Bin Aslam, a master's student of Cybersecurity at <strong><a href="https://www.uni-saarland.de/en/home.html" target="_blank">Universität des Saarlandes</a></strong>. I hold a Bachelor’s degree in Telecommunications Engineering from <strong><a href="https://www.muet.edu.pk/" target="_blank">Mehran University of Engineering and Technology</a></strong>, where I secured first position in my batch. My academic journey has developed a keen interest in cybersecurity, artificial intelligence, and machine learning, fields in which I am committed to advancing my knowledge and expertise. Apart from my academic and professional endeavors, I enjoy coding, watching football, and playing computer games. Feel free to explore my projects, publications, and teaching materials to get a deeper insight into my work. I am always open to new opportunities and connections, so don't hesitate to reach out.</p>
 </div>
 
 <!-- Address -->
 <div class="container content-section">
     <h2 class="section-title">Address</h2>
-    <p>Bahnstraße 26, Saarbrücken, Deutschland</p>
+    <p>Duetschherenstraße 82, 66117, Saarbrücken, Deutschland</p>
 </div>
 
 <!-- Contact Information -->
@@ -110,25 +124,6 @@ body {
     <ul>
         <li>English (CEFR C1)</li>
         <li>Deutsch (CEFR A1)</li>
-    </ul>
-</div>
-
-<!-- Skills -->
-<div class="container content-section">
-    <h2 class="section-title">Skills</h2>
-    <ul>
-        <li><strong>Programming Languages:</strong> Python, MATLAB, C++</li>
-        <li><strong>Libraries:</strong> Numpy, Pandas, Matplotlib, NLTK, SpaCy, Scikit-Learn</li>
-        <li><strong>Tools & Technologies:</strong> Cybersecurity, Data Science, Cisco Packet Tracer, eNSP, Linux, Latex, MS Office, Wireshark, PowerBI</li>
-    </ul>
-</div>
-
-<!-- References -->
-<div class="container content-section">
-    <h2 class="section-title">References</h2>
-    <ul>
-        <li><a href="https://scholar.google.com/citations?hl=en&user=OLku1akAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Zafi Sherhan Syed</a>, Associate Professor, Mehran University of Engineering and Technology.</li>
-        <li><a href="https://scholar.google.com/citations?user=cKbmWfwAAAAJ&hl=en" target="_blank">Faheem Yar Khuhawar</a>, Associate Professor, Mehran University of Engineering and Technology.</li>
     </ul>
 </div>
 
