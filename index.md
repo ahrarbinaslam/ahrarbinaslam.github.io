@@ -95,6 +95,9 @@ title: Home
     <p class="lead">
         Currently, I am exploring the area of trustworthy machine learning and explainable AI, focusing on creating models that are robust, fair, and interpretable. I am fascinated by the challenges in ensuring transparency and reliability in AI systems, and I aim to contribute to solving these issues through innovative research and collaboration. If you share similar interests or would like to collaborate, feel free to reach out. I am always excited to connect with people and exchange ideas.
     </p>
+      <p class="lead">
+    Apart from academics, I am a passionate football enthusiast with a keen interest in studying football tactics and strategies. I aspire to one day coach atleast a semi-professional football club. Moreover, I love playing video games as well.
+    </p>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
