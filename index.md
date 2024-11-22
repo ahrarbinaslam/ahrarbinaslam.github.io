@@ -83,13 +83,17 @@ title: Home
 
 <!-- Introduction -->
 <div class="container content-section">
-    <p class="lead">
+ <p class="lead">
         I am Ahrar Bin Aslam, a master's student of Cybersecurity at 
         <strong><a href="https://www.uni-saarland.de/en/home.html" target="_blank">Universität des Saarlandes</a></strong>.
         I hold a Bachelor’s degree in Telecommunications Engineering from 
         <strong><a href="https://www.muet.edu.pk/" target="_blank">Mehran University of Engineering and Technology</a></strong>, 
-        where I secured first position in my batch. My academic journey has developed a keen interest in cybersecurity, 
-        artificial intelligence, and machine learning.
+        where I secured first position in my batch and was supervised by 
+        <strong><a href="https://scholar.google.com/citations?user=OLku1akAAAAJ&hl=en" target="_blank" title="Zafi Sherhan Syed">Dr. Zafi Sherhan Syed</a></strong>.
+        My academic journey has developed a keen interest in cybersecurity, artificial intelligence, and machine learning.
+    </p>
+    <p class="lead">
+        Currently, I am exploring the area of trustworthy machine learning and explainable AI, focusing on creating models that are robust, fair, and interpretable. I am fascinated by the challenges in ensuring transparency and reliability in AI systems, and I aim to contribute to solving these issues through innovative research and collaboration. If you share similar interests or would like to collaborate, feel free to reach out. I am always excited to connect with people and exchange ideas.
     </p>
 </div>
 
