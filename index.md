@@ -69,7 +69,6 @@ title: Home
 
 <!-- Header -->
 <div class="container text-center my-4">
-    <img src="/assets/img/profile-pic.png" class="logo-img mb-3" alt="Ahrar Bin Aslam">
     <h1 class="header-title">Ahrar Bin Aslam</h1>
     <!-- Contact Icons -->
     <div class="contact-icons">
