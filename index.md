@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <style>
     /* Apply Times New Roman font */
@@ -18,6 +19,15 @@ title: Home
         color: #002244;
         margin-bottom: 1rem;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+    }
+
+    /* Profile Image Styling */
+    .logo-img {
+        max-width: 200px;
+        border-radius: 50%;
+        margin: 0 auto;
+        border: 5px solid #ddd;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     /* Section Titles */
@@ -44,23 +54,34 @@ title: Home
         background-color: #f8f9fa; /* Slightly darker on hover */
     }
 
-    /* Contact Links */
-    .contact-links a {
-        color: #007bff;
-        text-decoration: none;
-        transition: color 0.3s, text-decoration 0.3s;
-        font-weight: bold; /* Bold for emphasis */
+    /* Contact Icons */
+    .contact-icons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
     }
 
-    .contact-links a:hover {
-        color: #0056b3;
-        text-decoration: underline;
+    .contact-icons a {
+        font-size: 1.5rem; /* Adjust icon size */
+        color: #004b8d; /* Default icon color */
+        text-decoration: none;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .contact-icons a:hover {
+        color: #007bff; /* Highlight color on hover */
+        transform: scale(1.2); /* Slight zoom effect */
     }
 
     /* Responsive Layout */
     @media (max-width: 768px) {
         .content-section {
             padding: 1rem;
+        }
+
+        .contact-icons {
+            gap: 15px; /* Adjust gap for smaller screens */
         }
     }
 
@@ -73,46 +94,26 @@ title: Home
         font-size: 1.1rem; /* Slightly larger lead paragraph */
         line-height: 1.6; /* Increased line height for readability */
     }
-
-    /* Increased font size for address and education */
-    .address, .education {
-        font-size: 1.1rem; /* Increase font size */
-    }
 </style>
 
 <!-- Header Title -->
 <div class="container text-center my-4">
     <h1 class="header-title">Ahrar Bin Aslam</h1>
+    <!-- Profile Picture -->
+    <img src="/assets/img/profile-pic.png" alt="Ahrar Bin Aslam" class="logo-img mb-3">
+    <!-- Contact Icons Below Picture -->
+    <div class="contact-icons">
+        <a href="mailto:ahas00001@stud.uni-saarland.de" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/ahrarbinaslam23" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://scholar.google.com/citations?user=TjNDuj0AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://medium.com/@ahrarbaslam23" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
+        <a href="https://github.com/ahrarbinaslam" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
 </div>
 
 <!-- Introduction -->
 <div class="container content-section">
     <p class="lead">I am Ahrar Bin Aslam, a master's student of Cybersecurity at <strong><a href="https://www.uni-saarland.de/en/home.html" target="_blank">Universität des Saarlandes</a></strong>. I hold a Bachelor’s degree in Telecommunications Engineering from <strong><a href="https://www.muet.edu.pk/" target="_blank">Mehran University of Engineering and Technology</a></strong>, where I secured first position in my batch. My academic journey has developed a keen interest in cybersecurity, artificial intelligence, and machine learning, fields in which I am committed to advancing my knowledge and expertise. Apart from my academic and professional endeavors, I enjoy coding, watching football, and playing computer games. Feel free to explore my projects, publications, and teaching materials to get a deeper insight into my work. I am always open to new opportunities and connections, so don't hesitate to reach out.</p>
-</div>
-
-<!-- Contact Information -->
-<div class="container content-section">
-    <h2 class="section-title">Contact</h2>
-    <div class="contact-links address">
-        <p><strong>Address:</strong> Duetschherenstraße 82, 66117, Saarbrücken, Deutschland</p>
-        <p><strong>Email:</strong> <a href="mailto:ahas00001@stud.uni-saarland.de">ahas00001@stud.uni-saarland.de</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ahrarbinaslam23" target="_blank">linkedin.com/in/ahrarbinaslam23</a></p>
-        <p><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=TjNDuj0AAAAJ&hl=en" target="_blank">Ahrar Bin Aslam</a></p>
-        <p><strong>Medium:</strong> <a href="https://medium.com/@ahrarbaslam23" target="_blank">Ahrar Bin Aslam</a></p>
-    </div>
-</div>
-
-<!-- Education -->
-<div class="container content-section">
-    <h2 class="section-title">Education</h2>
-    <p class="education"><strong>Master of Science (M.Sc.) in Cybersecurity</strong><br>
-    <a href="https://www.uni-saarland.de/en/home.html" target="_blank">Universität des Saarlandes</a> | Saarland, Germany (Oct 2024 - Present)</p>
-    <p class="education"><strong>Bachelor of Engineering (B.E) in Telecommunication</strong><br>
-    <a href="https://www.muet.edu.pk/" target="_blank">Mehran University of Engineering and Technology</a> | Jamshoro, Pakistan (Oct 2018 - Dec 2022)<br>
-    <strong>CGPA:</strong> 3.95/4.00<br>
-    <strong>Dissertation:</strong> Leveraging Natural Language Processing for Public Health Screening of COVID-19<br>
-    <strong>Honors:</strong> Undergraduate First Position Holder<br>
-    <strong>Specializations:</strong> Computer Programming, Computer Networking, Machine Learning</p>
 </div>
 
 <!-- Bootstrap JS and dependencies -->
