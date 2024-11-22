@@ -23,13 +23,24 @@ title: Home
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
     }
 
-    /* Profile Image Styling */
-    .logo-img {
-        max-width: 200px;
-        border-radius: 50%;
-        margin: 0 auto;
-        border: 5px solid #ddd;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Contact Icons Styling */
+    .contact-icons {
+        margin-top: 10px; /* Adjust spacing above the icons */
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .contact-icons a {
+        font-size: 1.5rem; /* Adjust icon size */
+        color: #004b8d; /* Default icon color */
+        text-decoration: none;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .contact-icons a:hover {
+        color: #007bff; /* Highlight color on hover */
+        transform: scale(1.2); /* Slight zoom effect */
     }
 
     /* Section Titles */
@@ -54,26 +65,6 @@ title: Home
 
     .content-section:hover {
         background-color: #f8f9fa; /* Slightly darker on hover */
-    }
-
-    /* Contact Icons */
-    .contact-icons {
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .contact-icons a {
-        font-size: 1.5rem; /* Adjust icon size */
-        color: #004b8d; /* Default icon color */
-        text-decoration: none;
-        transition: color 0.3s ease, transform 0.3s ease;
-    }
-
-    .contact-icons a:hover {
-        color: #007bff; /* Highlight color on hover */
-        transform: scale(1.2); /* Slight zoom effect */
     }
 
     /* Responsive Layout */
@@ -101,9 +92,7 @@ title: Home
 <!-- Header Title -->
 <div class="container text-center my-4">
     <h1 class="header-title">Ahrar Bin Aslam</h1>
-    <!-- Profile Picture -->
-    <img src="/assets/img/profile-pic.png" class="logo-img mb-3">
-    <!-- Contact Icons Below Picture -->
+    <!-- Contact Icons Directly Below Name -->
     <div class="contact-icons">
         <a href="mailto:ahas00001@stud.uni-saarland.de" title="Email"><i class="fas fa-envelope"></i></a>
         <a href="https://linkedin.com/in/ahrarbinaslam23" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
