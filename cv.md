@@ -78,11 +78,8 @@ title: CV
     <h2>CV</h2>
     <p>You can download my CV from the links below:</p>
     <div class="cv-buttons">
-        <a href="https://ahrarbinaslam.github.io/Ahrar_CV_Saarland__English.pdf" class="cv-button cv-button-english" download>
+        <a href="https://ahrarbinaslam.github.io/Ahrar_Bin_Aslam_CV.pdf" class="cv-button cv-button-english" download>
             Download English CV
-        </a>
-        <a href="https://ahrarbinaslam.github.io/Ahrar_CV_Saarland_German.pdf" class="cv-button cv-button-german" download>
-            Download Deutsch CV
         </a>
     </div>
 </section>
