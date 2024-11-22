@@ -25,7 +25,7 @@ title: Home
 
     /* Profile Picture */
     .logo-img {
-        max-width: 200px;
+        max-width: 230px;
         border-radius: 50%;
         margin: 0 auto;
         border: 5px solid #ddd;
