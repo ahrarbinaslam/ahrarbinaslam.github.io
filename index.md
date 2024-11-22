@@ -78,6 +78,7 @@ title: Home
         <a href="https://scholar.google.com/citations?user=TjNDuj0AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://medium.com/@ahrarbaslam23" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
         <a href="https://github.com/ahrarbinaslam" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/ahrar_binaslam" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
         <a href="./Ahrar_Bin_Aslam_CV.pdf" target="_blank" title="Download CV"><i class="fas fa-file-pdf"></i></a>
     </div>
 </div>
