@@ -100,7 +100,7 @@ title: Home
 <div class="container text-center my-4">
     <h1 class="header-title">Ahrar Bin Aslam</h1>
     <!-- Profile Picture -->
-    <img src="/assets/img/profile-pic.png" alt="Ahrar Bin Aslam" class="logo-img mb-3">
+    <img src="/assets/img/profile-pic.png" class="logo-img mb-3">
     <!-- Contact Icons Below Picture -->
     <div class="contact-icons">
         <a href="mailto:ahas00001@stud.uni-saarland.de" title="Email"><i class="fas fa-envelope"></i></a>
