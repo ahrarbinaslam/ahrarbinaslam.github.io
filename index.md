@@ -62,7 +62,7 @@ title: Home
     }
 
     p.lead {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         line-height: 1.6;
     }
 </style>
