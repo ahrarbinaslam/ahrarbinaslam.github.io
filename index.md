@@ -66,23 +66,23 @@ title: Home
         font-size: 1.15rem;
         line-height: 1.6;
     }
-    .cv-icon {
-    font-size: 16px;
+.cv-link {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
     font-weight: bold;
-    color: #28a745; /* Green text and icon */
-    display: inline-flex;
-    align-items: center;
-    gap: 5px; /* Space between the icon and text */
+    color: #28a745; /* Green text */
     text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #28a745; /* Optional: Add a border for emphasis */
+    border-radius: 5px; /* Optional: Rounded corners */
+    display: inline-block;
+    margin-left: 10px; /* Add spacing if needed */
 }
 
-.cv-icon i {
-    font-size: 18px; /* Slightly larger icon */
-}
-
-.cv-icon:hover {
-    color: #2e2e2e; /* Dark gray on hover */
-    transition: color 0.3s ease;
+.cv-link:hover {
+    color: #fff; /* Text changes to white on hover */
+    background-color: #28a745; /* Green background on hover */
+    transition: 0.3s;
 }
 </style>
 
@@ -97,8 +97,8 @@ title: Home
         <a href="https://medium.com/@ahrarbaslam23" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
         <a href="https://github.com/ahrarbinaslam" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
                 <a href="https://x.com/ahrar_binaslam" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-    <a href="./Ahrar_Bin_Aslam_CV.pdf" target="_blank" title="Download CV" class="cv-icon">
-        <i class="fas fa-file-alt"></i> CV</a>
+    <a href="./Ahrar_Bin_Aslam_CV.pdf" target="_blank" title="Download CV" class="cv-link">CV</a>
+
 </div>
 <!-- Introduction -->
 <div class="container content-section">
