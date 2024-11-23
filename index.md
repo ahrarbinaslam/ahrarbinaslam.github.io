@@ -66,6 +66,24 @@ title: Home
         font-size: 1.15rem;
         line-height: 1.6;
     }
+    .cv-icon {
+    font-size: 16px;
+    font-weight: bold;
+    color: #28a745; /* Green text and icon */
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; /* Space between the icon and text */
+    text-decoration: none;
+}
+
+.cv-icon i {
+    font-size: 18px; /* Slightly larger icon */
+}
+
+.cv-icon:hover {
+    color: #2e2e2e; /* Dark gray on hover */
+    transition: color 0.3s ease;
+}
 </style>
 
 <!-- Header -->
@@ -79,8 +97,8 @@ title: Home
         <a href="https://medium.com/@ahrarbaslam23" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
         <a href="https://github.com/ahrarbinaslam" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
                 <a href="https://x.com/ahrar_binaslam" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-        <a href="./Ahrar_Bin_Aslam_CV.pdf" target="_blank" title="Download CV"><i class="fas fa-file-pdf"></i></a>
-    </div>
+    <a href="./Ahrar_Bin_Aslam_CV.pdf" target="_blank" title="Download CV" class="cv-icon">
+        <i class="fas fa-file-alt"></i> CV</a>
 </div>
 <!-- Introduction -->
 <div class="container content-section">
