@@ -3,44 +3,37 @@ layout: default
 title: Projects
 ---
 
-<h1 class="center-heading">Projects</h1>
+# Projects
 
-<div class="projects-container">
-  
-  <div class="project-card">
-    <h2>Leveraging Natural Language Processing for Public Health Screening of COVID-19</h2>
-    <p>The COVID-19 pandemic has attracted a lot of public interest, with people sharing their experiences of symptoms and recovery from this virus on social media
-platforms such as YouTube. This offers an opportunity to contribute to present
-and future public health screening efforts aimed to fight pandemics. Leveraging COVID-19-related data on YouTube, an automatic system could be created
-using Automatic Speech Recognition (ASR) tools to analyze speech and match
-symptoms with those in this data to determine if an individual has COVID-19.
-This approach could potentially detect COVID-19 at an early stage, enabling
-prompt public health response to stop the spread of this virus. Overall, content
-analysis of COVID-19-related vlogs on YouTube and ASR tools could prove to
-be a productive means of enhancing public health surveillance efforts during the
-COVID-19 pandemic.</p>
-  </div>
-  
-  <div class="project-card">
-    <h2>Sentiment and Word Cloud Analysis of FIFA World Cup 2022 Tweets</h2>
-    <p>The study analyzed 22,524 English tweets with the hashtag WorldCup2022 to investigate the sentiments expressed on Twitter during the event. The researchers used Natural Language Processing techniques, including VADER sentiment and Word Clouds, to determine positive and negative sentiments. The findings showed that while sports events tend to evoke positive emotions, negative sentiments were also prevalent, particularly regarding human and migrant rights in the host nation. The research concluded that Natural Language Processing is an efficient approach for detecting public emotions from textual data, and social media platforms can be a valuable source of data for understanding public sentiment.</p>
-  </div>
-  
-  <div class="project-card">
-    <h2>Sentiment Classification of Russia vs Ukraine Tweets</h2>
-    <p>In this project, I utilized Natural Language Processing (NLP) techniques to analyze tweets about the Russia-Ukraine conflict. I performed sentiment analysis to classify emotions as positive, negative, or neutral. Using Term Frequency - Inverse Document Frequency (TF-IDF), I identified significant keywords, and applied Latent Dirichlet Allocation (LDA) for topic modeling to uncover underlying themes in the tweets. This analysis provided insights into public sentiment and the main topics discussed in relation to the conflict.
+---
 
-</p>
-  </div>
-  
-  <div class="project-card">
-    <h2>Implementing Homomorphic Encryption on Datasets</h2>
-    <p>In this project, I explored the use of homomorphic encryption to securely perform computations on encrypted data without decryption. I utilized PYFHEL and Concrete-Numpy libraries to encrypt small datasets and execute numpy operations on the encrypted data. The study focused on evaluating the feasibility and performance of applying machine learning algorithms on homomorphically encrypted data compared to unencrypted datasets. Despite the added complexity and increased processing requirements, PYFHEL facilitated the implementation of fully homomorphic encryption, demonstrating its potential for secure data processing.</p>
-  </div>
+## Leveraging NLP for COVID-19 Public Health Screening
 
- <div class="project-card">
-    <h2>CGPA and Probation Calculator</h2>
-    <p>I created two helpful calculators for students at Mehran University of Engineering and Technology (MUET). The <a href="https://exam.muet.edu.pk/calc/gpa_calculator.html" target="_blank">GPA Calculator</a> allows students to easily calculate their Semester Grade Point Average (GPA) by inputting their grades and credit hours, providing an instant view of their academic performance. The <a href="https://exam.muet.edu.pk/calc/probation_calculator.html" target="_blank">Probation Calculator</a> helps students assess their Cumulative Grade Point Average (CGPA) to determine if they meet the criteria to avoid academic probation, allowing them to monitor their academic standing and make informed decisions about their studies.</p>
-  </div>
+This project explores analyzing speech data from COVID-19-related YouTube vlogs using Automatic Speech Recognition (ASR). The system matches symptoms from speech with known data to detect potential COVID-19 infections early. This approach aims to support pandemic response and public health surveillance.
 
-</div>
+---
+
+## Sentiment and Word Cloud Analysis of FIFA World Cup 2022 Tweets
+
+Analyzed 22,524 English tweets tagged with #WorldCup2022 using VADER sentiment and word cloud analysis. While sports events triggered positive sentiments, the study also found strong negative sentiments regarding human rights concerns in the host nation.
+
+---
+
+## Sentiment Classification of Russia vs Ukraine Tweets
+
+Used NLP techniques to classify tweet sentiments about the Russia-Ukraine conflict. Applied TF-IDF for keyword analysis and Latent Dirichlet Allocation (LDA) for topic modeling, uncovering themes and emotional tones from public discourse.
+
+---
+
+## Implementing Homomorphic Encryption on Datasets
+
+Explored secure computations on encrypted data using **PYFHEL** and **Concrete-Numpy**. Applied encryption to small datasets and executed NumPy operations without decrypting. Demonstrated the practicality and challenges of privacy-preserving machine learning.
+
+---
+
+## CGPA and Probation Calculators
+
+Developed two tools for **MUET students**:
+
+- 🎓 [GPA Calculator](https://exam.muet.edu.pk/calc/gpa_calculator.html): Compute GPA from grades and credit hours.
+- ⚠️ [Probation Calculator](https://exam.muet.edu.pk/calc/probation_calculator.html): Evaluate CGPA to check for academic probation risk.
