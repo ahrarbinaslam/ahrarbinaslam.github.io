@@ -2,121 +2,33 @@
 layout: default
 title: Teaching
 ---
-<style>
-.teaching-heading {
-    text-align: center;
-    margin-bottom: 2rem;
-}
 
-.teaching-heading h2 {
-    font-size: 2rem; /* Font size for h2 */
-    color: #004b8d; /* Heading color */
-}
-</style>
-<section id="teaching" class="container">
-  <div class="teaching-heading">
-    <h2>Teaching</h2>
-  </div>
-  <p>These are the lectures that I created while teaching the course of Artificial Intelligence (Machine Learning & Deep Learning).</p>
-  
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Descriptive Statistics - Lecture 1</h5>
-          <a href="/Descriptive Statistics - Lecture 1.pptx" class="btn btn-primary">Download</a>
-        </div>
-      </div>
-    </div>
+# Teaching
 
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Descriptive Statistics - Lecture 2</h5>
-          <a href="/Descriptive Statistics - Lecture 2.pptx" class="btn btn-primary">Download</a>
-        </div>
-      </div>
-    </div>
+These are the lectures I created while teaching the course **Artificial Intelligence (Machine Learning & Deep Learning)**.
 
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Descriptive Statistics - Lecture 3</h5>
-          <a href="/Descriptive Statistics - Lecture 3.pptx" class="btn btn-primary">Download</a>
-        </div>
-      </div>
-    </div>
+---
 
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Descriptive Statistics - Lecture 4</h5>
-          <a href="/Descriptive Statistics - Lecture 4.pptx" class="btn btn-primary">Download</a>
-        </div>
-      </div>
-    </div>
+## 📊 Descriptive Statistics
 
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Descriptive Statistics - Lecture 5</h5>
-          <a href="/Descriptive Statistics - Lecture 5.pptx" class="btn btn-primary">Download</a>
-        </div>
-      </div>
-    </div>
+- [Lecture 1](./Descriptive%20Statistics%20-%20Lecture%201.pptx)
+- [Lecture 2](./Descriptive%20Statistics%20-%20Lecture%202.pptx)
+- [Lecture 3](./Descriptive%20Statistics%20-%20Lecture%203.pptx)
+- [Lecture 4](./Descriptive%20Statistics%20-%20Lecture%204.pptx)
+- [Lecture 5](./Descriptive%20Statistics%20-%20Lecture%205.pptx)
 
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Numpy - Lecture</h5>
-          <a href="/Numpy - Lecture.pptx" class="btn btn-primary">Download</a>
-        </div>
-      </div>
-    </div>
+---
 
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Pandas - Lecture</h5>
-          <a href="/Pandas - Lecture.pptx" class="btn btn-primary">Download</a>
-        </div>
-      </div>
-    </div>
+## 🧮 Data Science Tools
 
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Matplotlib - Lecture</h5>
-          <a href="/Matplotlib - Lecture.pptx" class="btn btn-primary">Download</a>
-        </div>
-      </div>
-    </div>
+- [Numpy - Lecture](./Numpy%20-%20Lecture.pptx)
+- [Pandas - Lecture](./Pandas%20-%20Lecture.pptx)
+- [Matplotlib - Lecture](./Matplotlib%20-%20Lecture.pptx)
 
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Natural Language Processing - Lecture 1</h5>
-          <a href="/Natural Language Processing - Lecture 1.pptx" class="btn btn-primary">Download</a>
-        </div>
-      </div>
-    </div>
+---
 
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Natural Language Processing - Lecture 2</h5>
-          <a href="/Natural Language Processing - Lecture 2.pptx" class="btn btn-primary">Download</a>
-        </div>
-      </div>
-    </div>
+## 🧠 Natural Language Processing
 
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Attention Mechanism</h5>
-          <a href="/Attention Mechanism.pptx" class="btn btn-primary">Download</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+- [Lecture 1](./Natural%20Language%20Processing%20-%20Lecture%201.pptx)
+- [Lecture 2](./Natural%20Language%20Processing%20-%20Lecture%202.pptx)
+- [Attention Mechanism](./Attention%20Mechanism.pptx)
