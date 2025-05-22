@@ -25,7 +25,6 @@ title: "Home"
     <a href="https://scholar.google.com/citations?user=TjNDuj0AAAAJ">Google Scholar</a> ·
     <a href="https://medium.com/@ahrarbaslam23">Medium</a> ·
     <a href="https://x.com/ahrar_binaslam">Twitter</a> ·
-    <a href="./Ahrar_Bin_Aslam_CV.pdf">Download CV</a>
   </p>
 
   <hr>
