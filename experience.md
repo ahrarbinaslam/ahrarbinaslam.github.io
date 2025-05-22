@@ -19,15 +19,13 @@ title: Experience
 - Worked in the examination department on database administration, web portals, and server management.  
 - Managed QOBE software for exam automation.  
 - Created SQL Server databases and used data analytics tools to derive insights from examination data.  
-- In parallel, I collaborated on a book chapter titled *Artificial Intelligence-Enabled 6G Mobile Systems* with  
-  [Dr. Zafi Sherhan Syed](https://scholar.google.com/citations?user=OLku1akAAAAJ&hl=en&oi=ao) and  
-  [Dr. Faisal Karim Shaikh](https://scholar.google.com/citations?user=Z8eRzj0AAAAJ&hl=en).
+- In parallel, I collaborated on a book chapter titled *Artificial Intelligence-Enabled 6G Mobile Systems* with [Dr. Zafi Sherhan Syed](https://scholar.google.com/citations?user=OLku1akAAAAJ&hl=en&oi=ao) and [Dr. Faisal Karim Shaikh](https://scholar.google.com/citations?user=Z8eRzj0AAAAJ&hl=en).
 
 ---
 
 ## Teaching Experience
 
-### Teaching Assistant  
+### Teaching Assistant - StatsLab
 **[Saarland University](https://www.uni-saarland.de/)**  
 **Saarbrücken, Germany — (Apr 2024 – Present)**  
 - Conducting tutorial and guiding students with statistical concepts, exercises, and programming based assignments.
@@ -46,7 +44,7 @@ title: Experience
 ## Industry Experience
 
 ### Technical Assistance Center Engineer  
-**[Sybrid Private Limited](https://sybrid.com/)**  
+**[Cybernet Private Limited](https://cyber.net.pk/)**  
 **Karachi, Pakistan — (Dec 2022 – May 2023)**  
 - Troubleshot LAN/WAN issues using Looking Glass and Wireshark.  
 - Monitored GPON using Huawei iMaster NCE NMS, MRTG, and Observium.  
