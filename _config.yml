@@ -1,22 +1,14 @@
 title: "Ahrar Bin Aslam"
 description: "Cybersecurity Master's Student at Saarland University"
-url: "https://ahrarbinaslam.github.io"
-baseurl: ""
+url: "https://ahrarbinaslam.github.io"  # Your GitHub Pages URL
+baseurl: ""                             # Leave blank unless using a subpath
+
 theme: minima
 
-author:
-  name: "Ahrar Bin Aslam"
-  email: "ahas00001@stud.uni-saarland.de"
+author: "Ahrar Bin Aslam"
+email: "ahas00001@stud.uni-saarland.de"
 
-# Social links (optional for footer)
-social_links:
-  linkedin: "https://linkedin.com/in/ahrarbinaslam23"
-  github: "https://github.com/ahrarbinaslam"
-  scholar: "https://scholar.google.com/citations?user=TjNDuj0AAAAJ"
-  medium: "https://medium.com/@ahrarbaslam23"
-  twitter: "https://x.com/ahrar_binaslam"
-
-# Enable pages in navbar
+# Enable top navigation links
 header_pages:
   - index.md
   - projects.md
@@ -24,3 +16,17 @@ header_pages:
   - teaching.md
   - certifications.md
   - cv.md
+
+# Social links (not used in header but supported by minima’s footer)
+social_links:
+  github: https://github.com/ahrarbinaslam
+  linkedin: https://linkedin.com/in/ahrarbinaslam23
+  scholar: https://scholar.google.com/citations?user=TjNDuj0AAAAJ
+  medium: https://medium.com/@ahrarbaslam23
+  twitter: https://x.com/ahrar_binaslam
+
+# Optional: Set build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
