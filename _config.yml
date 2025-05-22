@@ -11,11 +11,11 @@ email: "ahas00001@stud.uni-saarland.de"
 # Enable top navigation links
 header_pages:
   - index.md
+  - experience.md
   - projects.md
   - publications.md
   - teaching.md
   - certifications.md
-  - cv.md
 
 # Social links (not used in header but supported by minima’s footer)
 social_links:
