@@ -1,9 +1,26 @@
 title: "Ahrar Bin Aslam"
 description: "Cybersecurity Master's Student at Saarland University"
-theme: jekyll-theme-minimal
+url: "https://ahrarbinaslam.github.io"
+baseurl: ""
+theme: minima
+
 author:
   name: "Ahrar Bin Aslam"
   email: "ahas00001@stud.uni-saarland.de"
-  social:
-    linkedin: "https://linkedin.com/in/ahrarbinaslam23"
-    github: "https://github.com/ahrarbinaslam"
+
+# Social links (optional for footer)
+social_links:
+  linkedin: "https://linkedin.com/in/ahrarbinaslam23"
+  github: "https://github.com/ahrarbinaslam"
+  scholar: "https://scholar.google.com/citations?user=TjNDuj0AAAAJ"
+  medium: "https://medium.com/@ahrarbaslam23"
+  twitter: "https://x.com/ahrar_binaslam"
+
+# Enable pages in navbar
+header_pages:
+  - index.md
+  - projects.md
+  - publications.md
+  - teaching.md
+  - certifications.md
+  - cv.md
