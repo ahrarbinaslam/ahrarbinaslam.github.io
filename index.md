@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-<img src="/assets/img/profile-pic.png" alt="Ahrar Bin Aslam" width="180" style="float: left; margin-right: 30px; border-radius: 10px;">
+<img src="/assets/img/profile-pic (1).png" alt="Ahrar Bin Aslam" width="180" style="float: left; margin-right: 30px; border-radius: 10px;">
 
 ### Ahrar Bin Aslam  
 **Cybersecurity Master's Student**  
