@@ -1,0 +1,56 @@
+---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+<!-- Project 1: SSH Key Management System -->
+<article class="archive-entry">
+  <h2 class="archive__item-title">SSH Key Management System</h2>
+  <p>
+    Designed and implemented a secure SSH Key Management backend using <strong>FastAPI</strong>, <strong>Docker</strong>, and <strong>MariaDB</strong>, tailored for multi-user server environments. The system exposes a <strong>REST API</strong> for uploading, listing, deleting, and categorizing SSH keys, with dynamic category-based activation and automated updates to <code>authorized_keys</code> files. Integrated <strong>OAuth2 token-based authentication</strong> ensures secure access to all endpoints. The entire service is containerized via Docker for portability and scalability, with MariaDB providing reliable key storage. This solution enhances centralized SSH key control, simplifies key rotation, and boosts security for teams managing remote infrastructure.
+  </p>
+</article>
+
+<!-- Project 2: Model Stealing Attack on B4B-Protected Encoder -->
+<article class="archive-entry">
+  <h2 class="archive__item-title">Model Stealing Attack on B4B-Protected Encoder</h2>
+  <p>
+    Implemented a model stealing attack targeting a B4B (Bucket-for-Bucket noise protected) encoder API. Queried a proprietary model in 1000-image batches to extract 1024-dimensional embeddings and replicated its behavior with a modified <strong>ResNet18</strong> encoder using a <strong>hybrid Cosine + L2 loss</strong>. Training incorporated data augmentation and ran for 40 epochs using Adam and learning rate scheduling. The model was exported to <strong>ONNX</strong> and achieved a <strong>raw average L2 distance of 6.19</strong> from victim outputs, indicating high fidelity. This project highlights advanced black-box querying, representation learning, and robust training in security-critical scenarios.
+  </p>
+</article>
+
+<!-- Project 3: Membership Inference Attack Using Ensemble Models -->
+<article class="archive-entry">
+  <h2 class="archive__item-title">Membership Inference Attack Using Ensemble Models</h2>
+  <p>
+    Developed a Membership Inference Attack pipeline to detect whether a given image was part of a ResNet18 model's training set, using only its outputs. Built an out-of-fold stacked ensemble using <strong>XGBoost</strong>, <strong>LightGBM</strong>, and <strong>CatBoost</strong> (tuned with Optuna), leveraging features like loss, confidence, entropy, gradient norm, and conv5 activations. A logistic regression meta-model aggregated predictions, fine-tuned to optimize TPR at low FPR. Using <strong>SelectKBest</strong>, the top 50 features were selected, achieving <strong>AUC = 0.7421</strong> and <strong>TPR@FPR=0.05 = 0.1023</strong>. Entire pipeline executed on Google Colab GPU in ~20 minutes, demonstrating strong feature engineering and ensemble modeling in adversarial ML.
+  </p>
+</article>
+
+<!-- Project 4: Sentiment Analysis of #WorldCup2022 Tweets -->
+<article class="archive-entry">
+  <h2 class="archive__item-title">Sentiment Analysis of #WorldCup2022 Tweets</h2>
+  <p>
+    Conducted sentiment analysis on <strong>22,524 English tweets</strong> tagged with <code>#WorldCup2022</code> to explore public opinion during the global sports event. Leveraged <strong>Natural Language Processing</strong> techniques including <strong>VADER sentiment analysis</strong> and <strong>Word Cloud visualization</strong> to extract and classify sentiments. The results revealed a mix of excitement for the games and concern over <strong>human and migrant rights</strong> in the host country. The study demonstrated how NLP can effectively detect emotional trends in social media, reinforcing the role of platforms like Twitter in gauging public sentiment in real-time.
+  </p>
+</article>
+
+<!-- Project 5: AI-Enabled 6G Mobile Communication Systems -->
+<article class="archive-entry">
+  <h2 class="archive__item-title">AI-Enabled 6G Mobile Communication Systems</h2>
+  <p>
+    This research project examined how <strong>Artificial Intelligence (AI)</strong> will shape the future of <strong>6G mobile communication</strong> systems. We surveyed and analyzed cutting-edge proposals that leverage AI to optimize aspects of the 6G ecosystem, including network management, signal processing, and resource allocation. The goal was to identify how AI can be used to build a more intelligent, adaptive, and efficient communication infrastructure for the next-generation internet. The study highlighted the potential of AI-driven 6G to surpass the limitations of current 5G technologies, paving the way for smarter connectivity and real-time decision-making in ubiquitous wireless environments.
+  </p>
+</article>
+
+<!-- Project 6: Explainable Phishing Email Detection using LIME and SHAP -->
+<article class="archive-entry">
+  <h2 class="archive__item-title">Explainable Phishing Email Detection using LIME and SHAP</h2>
+  <p>
+    This project developed a phishing email classifier using <strong>Random Forest</strong> on a dataset of 18,650 emails, achieving an accuracy of <strong>96.59%</strong> using <strong>TF-IDF features</strong>. The preprocessing pipeline involved contractions correction, emoji and HTML tag removal, lemmatization, and stopword filtering. Explainability was a core focus: <strong>LIME</strong> was used to interpret individual predictions by identifying influential words like “click” and “offer,” while <strong>SHAP</strong> explained global feature importance using Shapley values derived from game theory. The model achieved high precision and recall in detecting phishing content, and visual explanations helped expose common phishing patterns. This solution highlights the role of interpretable machine learning in real-world cybersecurity.
+  </p>
+</article>
