@@ -4,13 +4,14 @@ collection: teaching
 type: "Short Course"
 permalink: /teaching/2023-navttc-ai-course
 venue: "National Vocational and Technical Training Commission (NAVTTC)"
-date: 2023-06-01 - 2023-08-30
+date: 2023-06-01
+duration: "June 2023 – August 2023"
 location: "Jamshoro, Sindh, Pakistan"
 ---
 
-As part of the NAVTTC Skill Development Program, I served as an AI Instructor for a short-term technical course.
+As part of the NAVTTC Skill Development Program, I served as an AI Instructor for a short-term technical course delivered on-site in Jamshoro.
 
-### Key Responsibilities:
+Key Responsibilities:
 - Designed course material for:
   - Statistics  
   - Python Programming  
