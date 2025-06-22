@@ -35,11 +35,11 @@ Work Experience
 * **Student Assistant – IT (HiWi)**  
   [Chair of Developmental Psychology – Universität des Saarlandes](https://www.uni-saarland.de/en/lehrstuhl/aschersleben.html), Saarbrücken, Germany — *Apr 2025 – Present*  
   - Providing technical support for faculty and staff across Windows and macOS platforms.
-  - Performing system maintenance, backups, and network troubleshooting**. 
+  - Performing system maintenance, backups, and network troubleshooting. 
   - Maintaining the department website and coordinating with central IT services.
 * **Research Assistant**  
   [Mehran University of Engineering and Technology (MUET)](https://www.muet.edu.pk/), Jamshoro, Pakistan — *Jun 2023 – Aug 2024*  
-  - Conducted research on **AI-enabled 6G mobile systems** as part of a book chapter accepted for publication  
+  - Conducted research on AI-enabled 6G mobile systems as part of a book chapter accepted for publication  
     in *Intelligent Technologies for Healthcare Business Applications* (Springer), in collaboration with  
     [Dr. Zafi Sherhan Syed](https://scholar.google.com/citations?user=OLku1akAAAAJ&hl=en) and  [Prof. Dr. Faisal Karim Shaikh](https://scholar.google.com/citations?user=Z8eRzj0AAAAJ&hl=en).  
   - Designed and maintained SQL Server databases for the university's examination department. 
@@ -55,7 +55,7 @@ Work Experience
   [Cybernet (CYBER Internet Services Ltd.)](https://www.cyber.net.pk/), Karachi, Pakistan — *Dec 2022 – May 2023*  
   - Diagnosed and resolved Layer 2/3 network issues, including routing/switching and GPON fiber access. 
   - Troubleshot access layer issues involving CPE devices, routers, switches, and firewalls.
-  - Provided support for multiple access technologies**: DSL, GPON, WiMAX, RF, and VSAT.  
+  - Provided support for multiple access technologies: DSL, GPON, WiMAX, RF, and VSAT.  
   - Used Huawei iMaster NMS and Wireshark to analyze network traffic and service outages.
 
 Skills
