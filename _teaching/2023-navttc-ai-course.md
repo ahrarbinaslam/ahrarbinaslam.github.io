@@ -11,7 +11,7 @@ location: "Jamshoro, Sindh, Pakistan"
 
 As part of the NAVTTC Skill Development Program, I served as an AI Instructor for a short-term technical course delivered on-site in Jamshoro.
 
-Key Responsibilities:
+Responsibilities:
 - Designed course material for:
   - Statistics  
   - Python Programming  
