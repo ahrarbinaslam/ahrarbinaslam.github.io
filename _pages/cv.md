@@ -14,8 +14,9 @@ Education
 * M.Sc. in Cybersecurity, [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html), Saarbrücken, Germany — *Oct 2024 – Present*
 * B.E. in Telecommunication Engineering, [Mehran University of Engineering and Technology](https://www.muet.edu.pk/), Pakistan — *Oct 2018 – Dec 2022*
   * CGPA: 3.95 / 4.00 — *Gold Medalist*
-  * Thesis: *Leveraging Natural Language Processing for Public Health Screening of COVID-19*  
+  * Thesis: **Leveraging Natural Language Processing for Public Health Screening of COVID-19**  
     *Supervisor:* [Dr. Zafi Sherhan Syed](https://scholar.google.com/citations?user=OLku1akAAAAJ&hl=en)
+
 Work Experience
 ======
 
@@ -40,8 +41,7 @@ Work Experience
   [Mehran University of Engineering and Technology (MUET)](https://www.muet.edu.pk/), Jamshoro, Pakistan — *Jun 2023 – Aug 2024*  
   - Conducted research on **AI-enabled 6G mobile systems** as part of a book chapter accepted for publication  
     in *Intelligent Technologies for Healthcare Business Applications* (Springer), in collaboration with  
-    [Dr. Zafi Sherhan Syed](https://scholar.google.com/citations?user=OLku1akAAAAJ&hl=en) and  
-    [Prof. Dr. Faisal Karim Shaikh](https://scholar.google.com/citations?user=Z8eRzj0AAAAJ&hl=en)  
+    [Dr. Zafi Sherhan Syed](https://scholar.google.com/citations?user=OLku1akAAAAJ&hl=en) and  [Prof. Dr. Faisal Karim Shaikh](https://scholar.google.com/citations?user=Z8eRzj0AAAAJ&hl=en).  
   - Designed and maintained SQL Server databases for the university's examination department. 
   - Developed analytical dashboards and reports using data visualization and analytics tools for exam data analysis.  
 
