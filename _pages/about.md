@@ -28,6 +28,7 @@ I am always open to collaboration and research opportunities in any of the above
 
 ### What's New?
 
+- _July 2025_: I have started a new role as a **Cybersecurity Engineer** at [Secuvera GmbH](https://www.secuvera.de/).
 - _June 2025_: I will be attending the [CASA RC Trust Summer School 2025: AI and Security](https://casa.rub.de/en/events/casa-summer-school/casa-rct-summer-school-2025) at Ruhr-Universität Bochum, Germany.
 - _April 2025_: Started working as a **Teaching Assistant** at Universität des Saarlandes for the course StatsLab.
 - _April 2025_: Joined [ZeMA](https://zema.de/) as a **Research Assistant**, where I:
