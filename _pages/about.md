@@ -12,7 +12,7 @@ I am a Master's student in Cybersecurity at [Universität des Saarlandes](https:
 
 My academic journey began at [Mehran University of Engineering and Technology](https://www.muet.edu.pk/), where I graduated as the **1st position holder** in my batch with a Bachelor's in Telecommunication Engineering. My undergraduate thesis focused on leveraging Natural Language Processing (NLP) for public health screening during the COVID-19 pandemic, under the supervision of [Dr. Zafi Sherhan Syed](https://scholar.google.com/citations?user=OLku1akAAAAJ&hl=en).
 
-Currently, I am working as a **Research Assistant** at [ZeMA](https://zema.de/) and as a **Teaching Assistant** for the StatsLab course led by Prof. Dr. Vera Demberg at Universität des Saarlandes.
+Currently, I am working as a **Cybersecurity Engineer** at [Secuvera GmbH](https://www.secuvera.de/) and as a **Teaching Assistant** for the StatsLab course led by Prof. Dr. Vera Demberg at Universität des Saarlandes.
 
 ---
 
