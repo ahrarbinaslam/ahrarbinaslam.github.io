@@ -4,8 +4,8 @@ collection: teaching
 type: "University Course"
 permalink: /teaching/2025-statslab-ta
 venue: "Universität des Saarlandes"
-date: 2025-04-01 - Present
-duration: "April 2025 – Present"
+date: 2025-04-01 - 2025-08-31
+duration: "April 2025 – August 2025"
 location: "Saarbrücken, Saarland, Germany"
 ---
 
