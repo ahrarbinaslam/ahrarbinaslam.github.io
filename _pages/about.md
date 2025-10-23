@@ -20,7 +20,7 @@ Currently, I am working as a **Cybersecurity Engineer** at [Secuvera GmbH](https
 - Usable Security and Privacy  
 - Human Factors in Security  
 - Trustworthy Machine Learning
-- 
+  
 I am always open to collaboration and research opportunities in any of the above areas.
 
 ---
