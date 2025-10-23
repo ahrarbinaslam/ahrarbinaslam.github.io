@@ -76,7 +76,7 @@ Skills
 * **Programming:** Python, MATLAB, C++, JavaScript, SQL  
 * **Libraries/Frameworks:** Scikit-learn, Pandas, Numpy, Matplotlib, NLTK, SpaCy  
 * **Tools:** Wireshark, Cisco Packet Tracer, eNSP, PowerBI, Git, LaTeX  
-* **Languages:** English (C1), German (A1)
+* **Languages:** English (C1), German (A2)
 
 Publications
 ======
