@@ -20,6 +20,24 @@ Education
 Work Experience
 ======
 
+* **Cyber Security Engineer**  
+  [Secuvera GmbH](https://www.secuvera.de/), Gäufelden/Stuttgart, Germany — *July 2025 – Present*  
+  - Working in a DevSecOps role, embedding security across the development and deployment lifecycle of containerized applications.
+  - Conducting research on Docker & Kubernetes security to strengthen container hardening, configuration, and runtime protection.
+  - Implementing security best practices for AWS cloud services.
+  - Automating virtual machines and integrating security tools into CI/CD pipelines for continuous monitoring.
+
+* **Teaching Assistant – Human Computer Interaction**  
+  [Universität des Saarlandes](https://www.uni-saarland.de/), Saarbrücken, Germany — *Nov 2025 – Present*  
+  - Conducting weekly tutorials on statistics and helping students in assignments.
+  - Grading assignments, tests, and exams with the teaching team.
+
+* **Student Assistant – IT (HiWi)**  
+  [Chair of Developmental Psychology – Universität des Saarlandes](https://www.uni-saarland.de/en/lehrstuhl/aschersleben.html), Saarbrücken, Germany — *Apr 2025 – Present*  
+  - Providing technical support for faculty and staff across Windows and macOS platforms.
+  - Performing system maintenance, backups, and network troubleshooting. 
+  - Maintaining the department website and coordinating with central IT services.
+
 * **Research Assistant**  
   [ZeMA – Center for Mechatronics and Automation Technology](https://zema.de/), Saarbrücken, Germany — *Apr 2025 – Present*  
   - Conducting research on AI-driven human digital twin systems for personalized knee rehabilitation.  
@@ -32,11 +50,6 @@ Work Experience
   - Conducting weekly tutorials on statistics and helping students in assignments.
   - Grading assignments, tests, and exams with the teaching team. 
 
-* **Student Assistant – IT (HiWi)**  
-  [Chair of Developmental Psychology – Universität des Saarlandes](https://www.uni-saarland.de/en/lehrstuhl/aschersleben.html), Saarbrücken, Germany — *Apr 2025 – Present*  
-  - Providing technical support for faculty and staff across Windows and macOS platforms.
-  - Performing system maintenance, backups, and network troubleshooting. 
-  - Maintaining the department website and coordinating with central IT services.
 * **Research Assistant**  
   [Mehran University of Engineering and Technology (MUET)](https://www.muet.edu.pk/), Jamshoro, Pakistan — *Jun 2023 – Aug 2024*  
   - Conducted research on AI-enabled 6G mobile systems as part of a book chapter accepted for publication  
