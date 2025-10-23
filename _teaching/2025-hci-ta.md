@@ -2,7 +2,7 @@
 title: "Teaching Assistant – Human Computer Interaction"
 collection: teaching
 type: "University Course"
-permalink: /teaching/2025-hci-ta.md
+permalink: /teaching/2025-hci-ta
 venue: "Universität des Saarlandes"
 date: 2025-11-01 - Present
 duration: "November 2025 – Present"
